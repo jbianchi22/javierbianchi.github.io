@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discussions — Javier Bianchi</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', sans-serif; color: #333; background: #ffffff; line-height: 1.7; font-size: 17px; font-weight: 300; }
+  nav { position: sticky; top: 0; background: #ffffff; border-bottom: 1px solid #e0dbd4; z-index: 100; padding: 0 40px; }
+  .nav-inner { max-width: 960px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 58px; }
+  .nav-name { font-family: 'EB Garamond', serif; font-size: 22px; font-weight: 500; color: #1b2a4a; text-decoration: none; letter-spacing: 0.02em; }
+  .nav-links { display: flex; gap: 32px; align-items: center; }
+  .nav-links > a, .dropdown > a { text-decoration: none; color: #888; font-size: 13.5px; font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.2s; }
+  .nav-links > a:hover, .dropdown > a:hover { color: #1b2a4a; }
+  .nav-links > a.active, .dropdown > a.active { color: #1b2a4a; border-bottom: 2px solid #1d4e89; padding-bottom: 2px; }
+  .dropdown { position: relative; }
+  .dropdown > a::after { content: ' \25BE'; font-size: 9px; opacity: 0.6; margin-left: 2px; }
+  .dropdown-content { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background: #ffffff; border: 1px solid #e0dbd4; min-width: 170px; z-index: 101; padding: 6px 0; }
+  .dropdown:hover .dropdown-content { display: block; }
+  .dropdown-content a { display: block; padding: 8px 18px; text-decoration: none; text-transform: none; letter-spacing: 0.02em; font-size: 13px; color: #555; font-weight: 400; }
+  .dropdown-content a:hover { background: #f0eae6; color: #1b2a4a; }
+  .container { max-width: 960px; margin: 0 auto; padding: 50px 40px 80px; }
+  .section { margin-bottom: 50px; }
+  .section h2 { font-family: 'EB Garamond', serif; font-size: 24px; font-weight: 500; color: #1b2a4a; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #e0dbd4; }
+  .paper-title { font-weight: 500; color: #1b2a4a; font-size: 15px; margin-bottom: 2px; }
+  .paper-title a { color: #1d4e89; text-decoration: none; margin-left: 4px; }
+  .paper-title a:hover { text-decoration: underline; }
+  .paper-authors { font-size: 13.5px; color: #777; margin-bottom: 2px; }
+  .simple-item { margin-bottom: 20px; }
+  footer { border-top: 1px solid #e0dbd4; text-align: center; padding: 24px 40px; font-size: 12px; color: #bbb; }
+  @media (max-width: 700px) {
+    .nav-links { gap: 16px; } .nav-links a { font-size: 12px; }
+    .container { padding: 30px 20px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+
+    <div class="nav-links">
+      <a href="index.htm">Home</a>
+      <div class="dropdown">
+        <a href="Research.htm">Research</a>
+        <div class="dropdown-content">
+          <a href="Research.htm#working-papers">Working Papers</a>
+          <a href="Research.htm#publications">Publications</a>
+        </div>
+      </div>
+      <a href="Discussions.htm" class="active">Discussions</a>
+      <a href="page-other-writings.html">Other Writings</a>
+      <a href="Bio.htm">Bio</a>
+      <a href="Teaching.htm">Teaching</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="section">
+    <h2>Discussions</h2>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;A Theory of Economic Coercion and Fragmentation&rdquo; <a href="discussions/bis_discussion_maggiori_slides.pdf">[slides]</a> <a href="discussions/bis_discussion_maggiori.pdf">[Proceedings]</a></div>
+      <div class="paper-authors">by Clayton, Maggiori and Schreger, BIS Annual Meetings, 2024</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Gambling to Preserve Price (and Fiscal) Stability&rdquo; <a href="discussions/Discussion_Corsetti.pdf">[slides]</a></div>
+      <div class="paper-authors">by Giancarlo Corsetti and Bartoscz Maćkowiak, Conference in Honor of Guillermo Calvo, 2024</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Can QE be market neutral? Monetary policy with many firms and securities&rdquo; <a href="discussions/Discussion_QE.pdf">[slides]</a></div>
+      <div class="paper-authors">by Melina Papoutsi, Monika Piazzesi and Marti Schneider, Foundations of Monetary Economics, 2022</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Foreign Reserves Management and Original Sin&rdquo; <a href="discussions/discussion_Wu_Devereux.pdf">[slides]</a></div>
+      <div class="paper-authors">by Mick Devereux and Steve Wu, NBER IFM Meetings, 2022</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Are Collateral-Constraint Models Ready for Macroprudential Policy Design?&rdquo; <a href="discussions/Discussion_OPV.pdf">[slides]</a></div>
+      <div class="paper-authors">by Pablo Ottonello, Diego Perez and Paolo Varraso, NBER IFM Meetings, 2021</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Prudential Policy with Distorted Beliefs&rdquo; <a href="discussions/discussion_davila.pdf">[slides]</a></div>
+      <div class="paper-authors">by Eduardo Davila and Angus Walther, AEA 2021</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;The Economics of Sovereign Debt, Bailouts and the Eurozone Crisis&rdquo; <a href="discussions/discussion_bailout_default.pdf">[slides]</a></div>
+      <div class="paper-authors">by Pierre-Olivier Gourinchas, Philippe Martin and Todd Messer, NBER IFM Meetings 2018</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;A Macroeconomic Model with Financial Panics&rdquo; <a href="discussions/Discussion_GKP.pdf">[slides]</a></div>
+      <div class="paper-authors">by Mark Gertler, Nobu Kiyotaki and Andrea Prestipino, AEA 2018</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Financial Crises and Lending of Last Resort in Open Economies&rdquo; <a href="discussions/discussion_bocola_lorenzoni.pdf">[slides]</a></div>
+      <div class="paper-authors">by Luigi Bocola and Guido Lorenzoni, ITAM-PIER 2017</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;The I Theory Of Money&rdquo; <a href="discussions/Discussion_MP_Brunnermeir.pdf">[slides]</a></div>
+      <div class="paper-authors">by Markus K Brunnermeier and Yuliy Sannikov, Central Bank of Korea Annual Conference, 2015</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Evaluating the Cost of Government Credit Support: The OECD Context&rdquo; <a href="discussions/discussion_DLucas.pdf">[slides]</a></div>
+      <div class="paper-authors">by Deborah Lucas, Macro Financial Modeling Group meeting on Sovereign Default, May 2014</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Macroeconomic Volatility and External Imbalances&rdquo; <a href="discussions/discussion.pdf">[slides]</a> <a href="discussions/comment_JME.pdf">[text]</a></div>
+      <div class="paper-authors">by Alessandra Fogli and Fabrizio Perri, Carnegie-NYU-Rochester, 2014</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Renegotiation Policies in Sovereign Defaults&rdquo; <a href="discussions/renegotiation_policies.pdf">[slides]</a></div>
+      <div class="paper-authors">by Cristina Arellano and Yan Bai, AEA Meetings, 2014</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Capital Controls: Myth and Reality&rdquo; <a href="discussions/discussionMRR.pdf">[slides]</a></div>
+      <div class="paper-authors">by Nicolas Magud, Carmen Reinhart and Ken Rogoff, AEA Meetings, 2014</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;The Risk Channel of Monetary Policy&rdquo; <a href="discussions/discussion_degroot.pdf">[slides]</a></div>
+      <div class="paper-authors">by O. De Groot, IJCB Conference 2013</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Reserve Accumulation, Growth and Financial Crises&rdquo; <a href="discussions/Discussion_Benigno_Fornaro.pdf">[slides]</a></div>
+      <div class="paper-authors">by G. Benigno and L. Fornaro, Pacific Basin Conference SFO Fed, 2012</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Downward Nominal Wage Rigidity, Currency Pegs, and Involuntary Unemployment&rdquo; <a href="discussions/DiscussionNBER_SI_Peggers.pdf">[slides]</a></div>
+      <div class="paper-authors">by Stephanie Schmitt-Grohé and Martín Uribe, NBER IFM, SI 2012</div>
+    </div>
+
+    <div class="simple-item">
+      <div class="paper-title">&ldquo;Capital Account Policies and the Real Exchange Rate&rdquo; <a href="discussions/DiscussionISOM_Jeanne.pdf">[slides]</a> <a href="discussions/DiscussionNBER_ISOM_Jeanne.pdf">[Proceedings]</a></div>
+      <div class="paper-authors">by Olivier Jeanne, NBER International Seminar on Macroeconomics, 2012</div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>&copy; 2026 Javier Bianchi</footer>
+</body>
+</html>

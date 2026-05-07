@@ -1,0 +1,4 @@
+.claude/
+_check_tmp/
+*.tmp.*
+*.py
