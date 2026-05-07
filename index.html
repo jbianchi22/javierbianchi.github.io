@@ -12,9 +12,9 @@
   .nav-inner { max-width: 960px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 58px; }
   .nav-name { font-family: 'EB Garamond', serif; font-size: 22px; font-weight: 500; color: #1b2a4a; text-decoration: none; letter-spacing: 0.02em; }
   .nav-links { display: flex; gap: 32px; align-items: center; }
-  .nav-links > a, .dropdown > a { text-decoration: none; color: #888; font-size: 13.5px; font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.2s; }
+  .nav-links > a, .dropdown > a { display: inline-flex; align-items: center; height: 58px; border-bottom: 2px solid transparent; text-decoration: none; color: #888; font-size: 13.5px; font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.2s, border-color 0.2s; }
   .nav-links > a:hover, .dropdown > a:hover { color: #1b2a4a; }
-  .nav-links > a.active, .dropdown > a.active { color: #1b2a4a; border-bottom: 2px solid #1d4e89; padding-bottom: 2px; }
+  .nav-links > a.active, .dropdown > a.active { color: #1b2a4a; border-bottom-color: #1d4e89; }
   .dropdown { position: relative; }
   .dropdown > a::after { content: ' \25BE'; font-size: 9px; opacity: 0.6; margin-left: 2px; }
   .dropdown-content { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background: #ffffff; border: 1px solid #e0dbd4; min-width: 170px; z-index: 101; padding: 6px 0; }
@@ -70,9 +70,9 @@
   <div class="nav-inner">
 
     <div class="nav-links">
-      <a href="index.htm" class="active">Home</a>
+      <a href="index.html">Home</a>
       <div class="dropdown">
-        <a href="Research.htm">Research</a>
+        <a href="Research.htm" class="active">Research</a>
         <div class="dropdown-content">
           <a href="Research.htm#working-papers">Working Papers</a>
           <a href="Research.htm#publications">Publications</a>
