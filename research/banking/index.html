@@ -13,18 +13,32 @@
   .nav-links { display: flex; gap: 28px; align-items: center; }
   .nav-links a { text-decoration: none; color: #888; font-size: 16.5px; font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; }
   .nav-links a:hover, .nav-links a.active { color: #1b2a4a; }
-  .container { max-width: 860px; margin: 0 auto; padding: 48px 40px 80px; }
+  .container { max-width: 960px; margin: 0 auto; padding: 48px 40px 80px; }
   h1 { font-family: 'EB Garamond', serif; font-size: 37.4px; font-weight: 500; color: #1b2a4a; margin-bottom: 10px; }
   .topic-nav { margin: 20px 0 34px; padding-bottom: 18px; border-bottom: 1px solid #e0dbd4; font-size: 15.4px; color: #777; }
   .topic-nav a { color: #1d4e89; text-decoration: none; margin: 0 6px; white-space: nowrap; }
   .topic-nav a:hover { text-decoration: underline; }
-  .paper-list { list-style: none; display: grid; gap: 12px; }
-  .paper-list li { display: flex; align-items: center; gap: 14px; min-height: 78px; padding-bottom: 12px; border-bottom: 1px solid #ece8e3; font-size: 16.5px; line-height: 1.45; color: #666; }
-  .paper-list li:last-child { border-bottom: none; }
-  .paper-list img { flex: 0 0 104px; width: 104px; height: 70px; object-fit: cover; object-position: center; border-radius: 3px; background: #fff; }
-  .paper-list a { color: #1d4e89; text-decoration: none; font-weight: 500; }
-  .paper-list a:hover { text-decoration: underline; }
+  .paper { display: flex; gap: 24px; align-items: flex-start; margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid #ece8e3; }
+  .paper:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .paper-figure { flex-shrink: 0; width: 220px; height: 150px; border-radius: 3px; overflow: hidden; }
+  .paper-figure img { width: 100%; height: 100%; object-fit: cover; object-position: center center; display: block; background: #fff; }
+  .paper-info { flex: 1; min-width: 0; }
+  .paper-title { font-weight: 500; color: #1d4e89; font-size: 16.5px; margin-bottom: 2px; }
+  .paper-title a { color: #1d4e89; text-decoration: none; }
+  .paper-title a:hover { text-decoration: underline; }
+  .paper-authors { font-size: 14.85px; color: #777; margin-bottom: 2px; }
+  .paper-journal { font-size: 14.3px; color: #999; font-style: italic; }
+  .paper-links { margin-top: 5px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .paper-links a { font-size: 13.2px; color: #1d4e89; text-decoration: none; }
+  .paper-links a:hover { text-decoration: underline; }
   footer { border-top: 1px solid #e0dbd4; text-align: center; padding: 24px 40px; font-size: 13.2px; color: #bbb; }
+  @media (max-width: 700px) {
+    .nav-links { gap: 16px; }
+    .nav-links a { font-size: 15.84px; }
+    .container { padding: 30px 20px 60px; }
+    .paper { flex-direction: column; gap: 10px; }
+    .paper-figure { width: 100%; height: auto; aspect-ratio: 3 / 2; }
+  }
 </style>
 </head>
 <body>
@@ -40,15 +54,74 @@
     <a href="../sovereign-debt/index.html">Sovereign Debt</a> &middot;
     <a href="../geoeconomics/index.html">Geoeconomics</a>
   </div>
-  <ul class="paper-list">
-    <li><img src="../../figures/fig_bankruns_reg.png" alt=""><a href="../../research_working/BankRuns_Fragility_and_Regulation.pdf">Bank Runs, Fragility, and Regulation</a></li>
-    <li><img src="../../figures/fig_scrambling.png" alt=""><a href="../../research_working/ScramblingDollarsLiquidity.pdf">Scrambling for Dollars: International Liquidity, Banks and Exchange Rates</a></li>
-    <li><img src="../../figures/fig_bankruns_AB.png" alt=""><a href="../../research_publications/Bank_Runs_AB.pdf">Bank Runs, Fragility, and Credit Easing</a></li>
-    <li><img src="../../figures/fig_banking_ecma.png" alt=""><a href="../../research_publications/Banking_ecma.pdf">Banks, Liquidity Management and Monetary Policy</a></li>
-    <li><img src="../../figures/fig_safety_nets.png" alt=""><a href="../../research_publications/Safety_Nets.pdf">Financial Safety Nets</a></li>
-    <li><img src="../../figures/fig_bailouts.png" alt=""><a href="../../research_publications/EfficientBailouts.pdf">Efficient Bailouts?</a></li>
-    <li><img src="../../figures/fig_convenience_yields.png" alt=""><a href="../../research_working/Portfolios_convenience_yields.pdf">Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields</a></li>
-  </ul>
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_bankruns_reg.png" alt="Bank Runs, Fragility, and Regulation"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_working/BankRuns_Fragility_and_Regulation.pdf">Bank Runs, Fragility, and Regulation</a></div>
+      <div class="paper-authors">with Manuel Amador &mdash; August 2025</div>
+      <div class="paper-links"><a href="../../research_working/BankRuns_Fragility_and_Regulation.pdf">[Paper]</a><a href="../../research_working/BankingRegulation_Slides.pdf">[Slides]</a><a href="https://www.minneapolisfed.org/article/2024/why-individual-bank-decisions-make-all-banks-more-vulnerable-to-runs" target="_blank">[Policy highlights]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_scrambling.png" alt="Scrambling for Dollars: International Liquidity, Banks and Exchange Rates"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_working/ScramblingDollarsLiquidity.pdf">Scrambling for Dollars: International Liquidity, Banks and Exchange Rates</a></div>
+      <div class="paper-authors">with Saki Bigio and Charles Engel &mdash; March 2025</div>
+      <div class="paper-journal">Revise and Resubmit, Review of Economic Studies</div>
+      <div class="paper-links"><a href="../../research_working/ScramblingDollarsLiquidity.pdf">[Paper]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_bankruns_AB.png" alt="Bank Runs, Fragility, and Credit Easing"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/Bank_Runs_AB.pdf">Bank Runs, Fragility, and Credit Easing</a></div>
+      <div class="paper-authors">with Manuel Amador (2024)</div>
+      <div class="paper-journal">American Economic Review, 2024</div>
+      <div class="paper-links"><a href="../../research_publications/Bank_Runs_AB.pdf">[Paper]</a><a href="https://www.aeaweb.org/articles?id=10.1257/aer.20220328" target="_blank">[Journal link]</a><a href="../../research_publications/Slides_BankRuns_AB.pdf">[Slides]</a><a href="../../research_publications/Partial_bank_runs.pdf">[Earlier version: Partial Bank Runs]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_banking_ecma.png" alt="Banks, Liquidity Management and Monetary Policy"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/Banking_ecma.pdf">Banks, Liquidity Management and Monetary Policy</a></div>
+      <div class="paper-authors">with Saki Bigio (2022)</div>
+      <div class="paper-journal">Econometrica</div>
+      <div class="paper-links"><a href="../../research_publications/Banking_ecma.pdf">[Paper]</a><a href="https://onlinelibrary.wiley.com/doi/full/10.3982/ECTA16599" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_safety_nets.png" alt="Financial Safety Nets"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/Safety_Nets.pdf">Financial Safety Nets</a></div>
+      <div class="paper-authors">with Julien Bengui and Louphou Coulibaly (2019)</div>
+      <div class="paper-journal">International Economic Review</div>
+      <div class="paper-links"><a href="../../research_publications/Safety_Nets.pdf">[Paper]</a><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/iere.12346" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_bailouts.png" alt="Efficient Bailouts?"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/EfficientBailouts.pdf">Efficient Bailouts?</a></div>
+      <div class="paper-authors">Javier Bianchi (2016)</div>
+      <div class="paper-journal">American Economic Review (Lead Article)</div>
+      <div class="paper-links"><a href="../../research_publications/EfficientBailouts.pdf">[Paper]</a><a href="https://www.aeaweb.org/articles?id=10.1257/aer.20121524" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_convenience_yields.png" alt="Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_working/Portfolios_convenience_yields.pdf">Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields</a></div>
+      <div class="paper-authors">with Saki Bigio (2025)</div>
+      <div class="paper-journal">Forthcoming, Journal of Economic Theory</div>
+      <div class="paper-links"><a href="../../research_working/Portfolios_convenience_yields.pdf">[Paper]</a><a href="https://www.sciencedirect.com/science/article/pii/S002205312600030X" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
 </div>
 <footer>&copy; 2026 Javier Bianchi</footer>
 </body>

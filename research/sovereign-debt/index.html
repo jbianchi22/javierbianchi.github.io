@@ -13,19 +13,32 @@
   .nav-links { display: flex; gap: 28px; align-items: center; }
   .nav-links a { text-decoration: none; color: #888; font-size: 16.5px; font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; }
   .nav-links a:hover, .nav-links a.active { color: #1b2a4a; }
-  .container { max-width: 860px; margin: 0 auto; padding: 48px 40px 80px; }
+  .container { max-width: 960px; margin: 0 auto; padding: 48px 40px 80px; }
   h1 { font-family: 'EB Garamond', serif; font-size: 37.4px; font-weight: 500; color: #1b2a4a; margin-bottom: 10px; }
   .topic-nav { margin: 20px 0 34px; padding-bottom: 18px; border-bottom: 1px solid #e0dbd4; font-size: 15.4px; color: #777; }
   .topic-nav a { color: #1d4e89; text-decoration: none; margin: 0 6px; white-space: nowrap; }
   .topic-nav a:hover { text-decoration: underline; }
-  .paper-list { list-style: none; display: grid; gap: 12px; }
-  .paper-list li { display: flex; align-items: center; gap: 14px; min-height: 78px; padding-bottom: 12px; border-bottom: 1px solid #ece8e3; font-size: 16.5px; line-height: 1.45; color: #666; }
-  .paper-list li:last-child { border-bottom: none; }
-  .paper-list img { flex: 0 0 104px; width: 104px; height: 70px; object-fit: cover; object-position: center; border-radius: 3px; background: #fff; }
-  .paper-list a { color: #1d4e89; text-decoration: none; font-weight: 500; }
-  .paper-list a:hover { text-decoration: underline; }
-  .paper-list .no-paper-title { color: #1d4e89; font-weight: 500; }
+  .paper { display: flex; gap: 24px; align-items: flex-start; margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid #ece8e3; }
+  .paper:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .paper-figure { flex-shrink: 0; width: 220px; height: 150px; border-radius: 3px; overflow: hidden; }
+  .paper-figure img { width: 100%; height: 100%; object-fit: cover; object-position: center center; display: block; background: #fff; }
+  .paper-info { flex: 1; min-width: 0; }
+  .paper-title { font-weight: 500; color: #1d4e89; font-size: 16.5px; margin-bottom: 2px; }
+  .paper-title a { color: #1d4e89; text-decoration: none; }
+  .paper-title a:hover { text-decoration: underline; }
+  .paper-authors { font-size: 14.85px; color: #777; margin-bottom: 2px; }
+  .paper-journal { font-size: 14.3px; color: #999; font-style: italic; }
+  .paper-links { margin-top: 5px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .paper-links a { font-size: 13.2px; color: #1d4e89; text-decoration: none; }
+  .paper-links a:hover { text-decoration: underline; }
   footer { border-top: 1px solid #e0dbd4; text-align: center; padding: 24px 40px; font-size: 13.2px; color: #bbb; }
+  @media (max-width: 700px) {
+    .nav-links { gap: 16px; }
+    .nav-links a { font-size: 15.84px; }
+    .container { padding: 30px 20px 60px; }
+    .paper { flex-direction: column; gap: 10px; }
+    .paper-figure { width: 100%; height: auto; aspect-ratio: 3 / 2; }
+  }
 </style>
 </head>
 <body>
@@ -41,15 +54,73 @@
     <a href="../sovereign-debt/index.html">Sovereign Debt</a> &middot;
     <a href="../geoeconomics/index.html">Geoeconomics</a>
   </div>
-  <ul class="paper-list">
-    <li><img src="../../figures/fig_monetary_rollover.png" alt=""><span class="no-paper-title">Sovereign Debt Crises and Monetary Policy</span></li>
-    <li><img src="../../figures/fig_reserves_rollover.png" alt=""><a href="../../research_working/Reserves_rollover_crises.pdf">International Reserve Management under Rollover Crises</a></li>
-    <li><img src="../../figures/fig_russian_default.png" alt=""><a href="../../research_publications/Russian_default.pdf">On Wars, Sanctions and Sovereign Default</a></li>
-    <li><img src="../../figures/fig_fiscal_stimulus.png" alt=""><a href="../../research_publications/Fiscal_stimulus_default.pdf">Fiscal Stimulus under Sovereign Risk</a></li>
-    <li><img src="../../figures/fig_reserves_macrostab.png" alt=""><a href="../../research_publications/ReservesMacroStabilization_forthcoming.pdf">Reserve Accumulation, Macroeconomic Stabilization and Sovereign Risk</a></li>
-    <li><img src="../../figures/fig_reserves_AER.png" alt=""><a href="../../research_publications/reserves_aer.pdf">International Reserves and Rollover Risk</a></li>
-    <li><img src="../../figures/fig_monetary_rollover.png" alt=""><a href="../../research_publications/Monetary_Rollover_QJE.pdf">Monetary Independence and Rollover Crises</a></li>
-  </ul>
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_monetary_rollover.png" alt="Sovereign Debt Crises and Monetary Policy"></div>
+    <div class="paper-info">
+      <div class="paper-title">Sovereign Debt Crises and Monetary Policy</div>
+      <div class="paper-authors">with Carlos Bolivar</div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_reserves_rollover.png" alt="International Reserve Management under Rollover Crises"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_working/Reserves_rollover_crises.pdf">International Reserve Management under Rollover Crises</a></div>
+      <div class="paper-authors">with Mauricio Barbosa-Alves and Cesar Sosa-Padilla &mdash; February 2025</div>
+      <div class="paper-journal">Accepted, Quarterly Journal of Economics</div>
+      <div class="paper-links"><a href="../../research_working/Reserves_rollover_crises.pdf">[Paper]</a><a href="../../research_working/Slides_Reserves_rollover_crises.pdf">[Slides]</a><a href="https://www.minneapolisfed.org/article/2024/the-right-and-wrong-times-to-add-reserves-in-a-sovereign-debt-crisis" target="_blank">[Policy highlights]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_russian_default.png" alt="On Wars, Sanctions and Sovereign Default"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/Russian_default.pdf">On Wars, Sanctions and Sovereign Default</a></div>
+      <div class="paper-authors">with Cesar Sosa-Padilla (2023)</div>
+      <div class="paper-journal">Journal of Monetary Economics, Carnegie-Rochester-NYU 100th Conference</div>
+      <div class="paper-links"><a href="../../research_publications/Russian_default.pdf">[Paper]</a><a href="https://www.sciencedirect.com/science/article/pii/S0304393223001265" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_fiscal_stimulus.png" alt="Fiscal Stimulus under Sovereign Risk"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/Fiscal_stimulus_default.pdf">Fiscal Stimulus under Sovereign Risk</a></div>
+      <div class="paper-authors">with Pablo Ottonello and Ignacio Presno (2023)</div>
+      <div class="paper-journal">Journal of Political Economy</div>
+      <div class="paper-links"><a href="../../research_publications/Fiscal_stimulus_default.pdf">[Paper]</a><a href="https://www.journals.uchicago.edu/doi/full/10.1086/724317?journalCode=jpe" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_reserves_macrostab.png" alt="Reserve Accumulation, Macroeconomic Stabilization and Sovereign Risk"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/ReservesMacroStabilization_forthcoming.pdf">Reserve Accumulation, Macroeconomic Stabilization and Sovereign Risk</a></div>
+      <div class="paper-authors">with Cesar Sosa-Padilla (2023)</div>
+      <div class="paper-journal">Review of Economic Studies</div>
+      <div class="paper-links"><a href="../../research_publications/ReservesMacroStabilization_forthcoming.pdf">[Paper]</a><a href="https://www.restud.com/reserve-accumulation-macroeconomic-stabilization-and-sovereign-risk/" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_reserves_AER.png" alt="International Reserves and Rollover Risk"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/reserves_aer.pdf">International Reserves and Rollover Risk</a></div>
+      <div class="paper-authors">with Juan Carlos Hatchondo and Leonardo Martinez (2018)</div>
+      <div class="paper-journal">American Economic Review</div>
+      <div class="paper-links"><a href="../../research_publications/reserves_aer.pdf">[Paper]</a><a href="https://www.aeaweb.org/articles?id=10.1257/aer.20140443" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-figure"><img src="../../figures/fig_monetary_rollover.png" alt="Monetary Independence and Rollover Crises"></div>
+    <div class="paper-info">
+      <div class="paper-title"><a href="../../research_publications/Monetary_Rollover_QJE.pdf">Monetary Independence and Rollover Crises</a></div>
+      <div class="paper-authors">with Jorge Mondragon (2022)</div>
+      <div class="paper-journal">Quarterly Journal of Economics</div>
+      <div class="paper-links"><a href="../../research_publications/Monetary_Rollover_QJE.pdf">[Paper]</a><a href="../../research_publications/slides_rollover_monetary.pdf">[Slides]</a><a href="https://academic.oup.com/qje/article-abstract/137/1/435/6352978" target="_blank">[Journal link]</a></div>
+    </div>
+  </div>
 </div>
 <footer>&copy; 2026 Javier Bianchi</footer>
 </body>
