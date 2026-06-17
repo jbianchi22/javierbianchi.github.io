@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Javier Bianchi</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'EB Garamond', serif; color: #1a1a1a; background: #fff; font-size: 16.5px; line-height: 1.55; }
+  .page { max-width: 840px; margin: 0 auto; padding: 56px 48px 80px; }
+
+  /* Header */
+  .cv-header { text-align: center; margin-bottom: 28px; }
+  .cv-name { font-size: 32px; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 14px; }
+  .cv-meta { display: flex; justify-content: space-between; font-size: 14.5px; font-family: 'Inter', sans-serif; font-weight: 300; color: #444; line-height: 1.75; }
+  .cv-meta a { color: #1d4e89; text-decoration: none; }
+  .cv-meta a:hover { text-decoration: underline; }
+  .cv-updated { font-size: 13px; color: #999; text-align: right; }
+  .cv-download { text-align: center; margin-top: 14px; }
+  .cv-download a {
+    display: inline-block; font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500;
+    color: #fff; background: #1d4e89; text-decoration: none;
+    padding: 7px 18px; border-radius: 3px; letter-spacing: 0.03em;
+    transition: background 0.2s;
+  }
+  .cv-download a:hover { background: #163a6a; }
+  @media print { .cv-download { display: none; } }
+  hr.header-rule { border: none; border-top: 1.5px solid #222; margin: 14px 0 28px; }
+
+  /* Sections */
+  .section { margin-top: 22px; }
+  .section h2 {
+    font-family: 'EB Garamond', serif; font-size: 15px; font-weight: 600;
+    font-variant: small-caps; letter-spacing: 0.08em; color: #1a1a1a;
+    margin-bottom: 8px; margin-top: 20px;
+  }
+
+  /* Two-column rows */
+  .row { display: flex; gap: 0; margin-bottom: 5px; font-size: 16px; }
+  .row-year { flex-shrink: 0; width: 100px; color: #444; font-size: 15px; padding-top: 0; }
+  .row-body { flex: 1; }
+  .row-body em { font-style: italic; }
+  .row-body a { color: #1d4e89; text-decoration: none; }
+  .row-body a:hover { text-decoration: underline; }
+
+  /* Papers — numbered list, PDF-style hanging indent */
+  ol.papers { padding-left: 0; margin: 0; list-style: none; counter-reset: papers-counter; }
+  ol.papers[start="28"] { counter-reset: papers-counter 27; }
+  ol.papers[start="32"] { counter-reset: papers-counter 31; }
+  ol.papers li {
+    counter-increment: papers-counter;
+    position: relative; padding-left: 44px;
+    margin-bottom: 9px; font-size: 16px; line-height: 1.5;
+  }
+  ol.papers li::before {
+    content: counter(papers-counter) ".";
+    position: absolute; left: 0; width: 38px;
+    text-align: right; color: #555;
+  }
+  ol.papers li em { font-style: italic; }
+
+  /* Unnumbered paper list */
+  ul.papers { list-style: none; padding-left: 0; margin: 0; }
+  ul.papers li { margin-bottom: 8px; font-size: 16px; line-height: 1.5; padding-left: 20px; text-indent: -20px; }
+  ul.papers li::before { content: "– "; color: #888; }
+  ul.papers li em { font-style: italic; }
+
+  /* Discussions */
+  .disc-row { display: flex; gap: 0; margin-bottom: 6px; font-size: 16px; }
+  .disc-year { flex-shrink: 0; width: 60px; color: #444; font-size: 15px; }
+  .disc-body { flex: 1; line-height: 1.5; }
+  .disc-body em { font-style: italic; }
+
+  /* Conferences — compact */
+  .conf-row { display: flex; gap: 0; margin-bottom: 7px; font-size: 15.5px; }
+  .conf-year { flex-shrink: 0; width: 60px; color: #444; font-size: 15px; padding-top: 1px; }
+  .conf-body { flex: 1; line-height: 1.5; color: #333; }
+  .conf-body em { font-style: italic; color: #222; }
+
+  /* Students */
+  .students-group { margin-bottom: 8px; }
+  .students-place { font-weight: 600; font-size: 15.5px; margin-bottom: 2px; }
+  .students-list { padding-left: 20px; font-size: 15.5px; line-height: 1.7; color: #333; }
+
+  footer { margin-top: 40px; font-size: 13px; font-family: 'Inter', sans-serif; color: #aaa; }
+
+  /* Nav */
+  nav { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #e0dbd4; z-index: 100; padding: 0 40px; }
+  .nav-inner { max-width: 960px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 58px; }
+  .nav-name { font-family: 'EB Garamond', serif; font-size: 24.2px; font-weight: 500; color: #1b2a4a; text-decoration: none; letter-spacing: 0.02em; }
+  .nav-links { display: flex; gap: 32px; align-items: center; }
+  .nav-links > a, .dropdown > a { display: inline-flex; align-items: center; height: 58px; border-bottom: 2px solid transparent; text-decoration: none; color: #888; font-size: 17.82px; font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; transition: color 0.2s, border-color 0.2s; }
+  .nav-links > a:hover, .dropdown > a:hover { color: #1b2a4a; }
+  .nav-links > a.active, .dropdown > a.active { color: #1b2a4a; border-bottom-color: #1d4e89; }
+  .dropdown { position: relative; }
+  .dropdown > a::after { content: ' \25BE'; font-size: 9.9px; opacity: 0.6; margin-left: 2px; }
+  .dropdown-content { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background: #fff; border: 1px solid #e0dbd4; min-width: 140px; z-index: 101; padding: 6px 0; }
+  .dropdown:hover .dropdown-content { display: block; }
+  .dropdown-content a { display: block; padding: 8px 18px; text-decoration: none; text-transform: none; letter-spacing: 0.02em; font-size: 14.3px; color: #555; font-weight: 400; height: auto; border-bottom: none; }
+  .dropdown-content a:hover { background: #f0eae6; color: #1b2a4a; }
+  @media print {
+    nav { display: none; }
+    body { font-size: 10.5pt; }
+    .page { padding: 0; max-width: 100%; }
+    a { color: #222 !important; text-decoration: none !important; }
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="Research.htm">Research</a>
+        <div class="dropdown-content">
+          <a href="Research.htm#working-papers">Working Papers</a>
+          <a href="Research.htm#publications">Publications</a>
+        </div>
+      </div>
+      <a href="Discussions.htm">Discussions</a>
+      <a href="Teaching.htm">Teaching</a>
+      <a href="page-other-writings.html">Other Writings</a>
+      <div class="dropdown">
+        <a href="Bio.htm" class="active">Bio / Vita</a>
+        <div class="dropdown-content">
+          <a href="Bio.htm">Bio</a>
+          <a href="cv.html">Vita</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="page">
+
+<!-- ===== HEADER ===== -->
+<div class="cv-header">
+  <div class="cv-updated">June 2026</div>
+  <div class="cv-name">Javier Bianchi</div>
+  <div class="cv-meta">
+    <div>Federal Reserve Bank of Minneapolis<br>90 Hennepin Avenue<br>Minneapolis, MN 55401</div>
+    <div style="text-align:right;"><a href="mailto:Javier.i.Bianchi@gmail.com">Javier.i.Bianchi@gmail.com</a><br><a href="https://javierbianchi.com" target="_blank">javierbianchi.com</a><br><a href="https://scholar.google.com/citations?user=x926N0gAAAAJ&hl=en" target="_blank">Google Scholar Profile</a></div>
+  </div>
+  <div class="cv-download"><a href="bio/CV.pdf" download>Download PDF</a></div>
+</div>
+<hr class="header-rule">
+
+<!-- ===== CURRENT POSITIONS ===== -->
+<div class="section">
+  <h2>Current Positions</h2>
+  <div class="row"><div class="row-year">2022–</div><div class="row-body">Monetary Advisor, Federal Reserve Bank of Minneapolis</div></div>
+  <div class="row"><div class="row-year">2020–</div><div class="row-body">Co-editor, <em>Journal of International Economics</em></div></div>
+  <div class="row"><div class="row-year">2023–</div><div class="row-body">Adjunct Professor, University of Minnesota</div></div>
+</div>
+
+<!-- ===== EDUCATION ===== -->
+<div class="section">
+  <h2>Education</h2>
+  <div class="row"><div class="row-year">2006–2011</div><div class="row-body">Ph.D. in Economics, University of Maryland</div></div>
+  <div class="row"><div class="row-year">2000–2003</div><div class="row-body">B.A. in Economics, Universidad de Montevideo</div></div>
+</div>
+
+<!-- ===== PREVIOUS POSITIONS ===== -->
+<div class="section">
+  <h2>Previous Positions</h2>
+  <div class="row"><div class="row-year">2015–2021</div><div class="row-body">Senior Research Economist, Federal Reserve Bank of Minneapolis</div></div>
+  <div class="row"><div class="row-year">2014–2015</div><div class="row-body">Research Economist, Federal Reserve Bank of Minneapolis</div></div>
+  <div class="row"><div class="row-year">2012–2015</div><div class="row-body">Assistant Professor, Department of Economics, University of Wisconsin–Madison</div></div>
+  <div class="row"><div class="row-year">2011–2012</div><div class="row-body">Visiting Assistant Professor, Department of Economics, NYU</div></div>
+</div>
+
+<!-- ===== OTHER ACADEMIC ===== -->
+<div class="section">
+  <h2>Other Academic and Professional Activities</h2>
+  <div class="row"><div class="row-year">2025</div><div class="row-body">Editorial Board, <em>IMF Economic Review</em></div></div>
+  <div class="row"><div class="row-year">2024</div><div class="row-body">Guest Editor, <em>JPE Macro</em>, "Banking, Regulation, and Macroeconomic Outcomes"</div></div>
+  <div class="row"><div class="row-year">2012–2019</div><div class="row-body">Faculty Research Fellow, NBER</div></div>
+  <div class="row"><div class="row-year">2016–2019</div><div class="row-body">Associate Editor, <em>Journal of International Economics</em></div></div>
+  <div class="row"><div class="row-year">2015–2019</div><div class="row-body">Associate Editor, <em>Review of Economic Dynamics</em></div></div>
+  <div class="row"><div class="row-year">2015–2018</div><div class="row-body">Associate Editor, <em>Journal of European Economic Association</em></div></div>
+  <div class="row"><div class="row-year">2012–</div><div class="row-body">Research Associate, Globalization &amp; Monetary Policy Institute, FRB Dallas</div></div>
+  <div class="row"><div class="row-year">2014</div><div class="row-body">Visiting Scholar, Einaudi Institute for Economics and Finance</div></div>
+  <div class="row"><div class="row-year">2013</div><div class="row-body">Visiting Scholar, Sveriges Riksbank</div></div>
+  <div class="row"><div class="row-year">2012</div><div class="row-body">Visiting Scholar, Federal Reserve Bank of New York</div></div>
+  <div class="row"><div class="row-year">2012</div><div class="row-body">Visiting Scholar, Federal Reserve Bank of Minneapolis</div></div>
+  <div class="row"><div class="row-year">2011</div><div class="row-body">Visiting Scholar, Federal Reserve Bank of Richmond</div></div>
+  <div class="row"><div class="row-year">2010</div><div class="row-body">Dissertation Internship, Board of Governors of the Federal Reserve System</div></div>
+  <div class="row"><div class="row-year">2009</div><div class="row-body">Dissertation Internship, Federal Reserve Bank of Atlanta, Americas Center</div></div>
+  <div class="row"><div class="row-year">2004–2006</div><div class="row-body">Economic Analyst, Central Bank of Uruguay</div></div>
+</div>
+
+<!-- ===== GRANTS ===== -->
+<div class="section">
+  <h2>Grants</h2>
+  <div class="row"><div class="row-year">2021–2023</div><div class="row-body">Center for Equitable Growth Grant on "Macroprudential Regulations, Income Inequality and the Redistribution Channel" (with Louphou Coulibaly)</div></div>
+  <div class="row"><div class="row-year">2014–2016</div><div class="row-body">NSF Grant #1324395, "Public and Private Debt Crises: Quantitative Macroeconomic Models and Policy Implications" (with Pablo D'Erasmo and Enrique Mendoza)</div></div>
+  <div class="row"><div class="row-year">2015–2016</div><div class="row-body">Bank of England Research Grant (with Saki Bigio)</div></div>
+  <div class="row"><div class="row-year">2015–2016</div><div class="row-body">Smith Richardson Foundation (with Saki Bigio)</div></div>
+  <div class="row"><div class="row-year">2014–2015</div><div class="row-body">Fondation Banque de France Grant (with Saki Bigio)</div></div>
+  <div class="row"><div class="row-year">2013</div><div class="row-body">Graduate School Research Committee Grant, University of Wisconsin–Madison</div></div>
+</div>
+
+<!-- ===== HONORS ===== -->
+<div class="section">
+  <h2>Honors &amp; Awards</h2>
+  <div class="row"><div class="row-year">2025</div><div class="row-body">Keynote Speaker, VIII Salento Meetings</div></div>
+  <div class="row"><div class="row-year">2024</div><div class="row-body">Keynote Speaker, XXXIX Annual Meetings of the Central Bank of Uruguay</div></div>
+  <div class="row"><div class="row-year">2022</div><div class="row-body">Keynote Speaker, CEPR–South African Reserve Bank "Emerging Markets Back in the Spotlight: Monetary and Fiscal Policies Going Forward," South Africa</div></div>
+  <div class="row"><div class="row-year">2013, 2016–17</div><div class="row-body">Excellence in Refereeing Award, <em>American Economic Review</em></div></div>
+  <div class="row"><div class="row-year">2017</div><div class="row-body">Keynote Speaker, Bank of England &amp; Banque de France International Macroeconomics Workshop</div></div>
+  <div class="row"><div class="row-year">2016</div><div class="row-body">Excellence Award in Global Economic Affairs, Kiel Institute for the World Economy</div></div>
+  <div class="row"><div class="row-year">2016</div><div class="row-body">Morosoli de Bronce in Economics, Fundacion L. Rubial, Uruguay</div></div>
+  <div class="row"><div class="row-year">2013</div><div class="row-body">Young Macroeconomists' Jamboree, Duke University</div></div>
+  <div class="row"><div class="row-year">2012</div><div class="row-body">National Prize in Economics, Uruguay (Premio Raúl Trajtenberg)</div></div>
+  <div class="row"><div class="row-year">2010</div><div class="row-body">Anne G. Wylie Dissertation Fellowship, University of Maryland</div></div>
+  <div class="row"><div class="row-year">2010</div><div class="row-body">Best Paper Award, XV Workshop in Dynamic Macroeconomics, Vigo, Spain</div></div>
+  <div class="row"><div class="row-year">2009</div><div class="row-body">First Prize Fellowship for best third-year paper, Department of Economics, University of Maryland</div></div>
+  <div class="row"><div class="row-year">2007</div><div class="row-body">Distinction in Microeconomic Theory Prelim. Exam, University of Maryland</div></div>
+  <div class="row"><div class="row-year">2006–2007</div><div class="row-body">Fulbright Scholarship</div></div>
+</div>
+
+<!-- ===== JOURNAL ARTICLES ===== -->
+<div class="section">
+  <h2>Journal Articles</h2>
+  <ol class="papers">
+    <li>"International Reserve Management under Rollover Crises," with Mauricio Barbosa Alves and Cesar Sosa-Padilla. Forthcoming, <em>Quarterly Journal of Economics</em>.</li>
+    <li>"Liquidity Traps, Prudential Policies, and International Spillovers," with Louphou Coulibaly. Forthcoming, <em>Review of Economic Studies</em>.</li>
+    <li>"Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields," with Saki Bigio. Forthcoming, <em>Journal of Economic Theory</em>, 2026.</li>
+    <li>"A Theory of Fear of Floating," with Louphou Coulibaly. <em>Journal of Monetary Economics</em>, January 2026.</li>
+    <li>"International Sanctions and Dollar Dominance," with Cesar Sosa-Padilla. <em>Economic Journal</em>, July 2025.</li>
+    <li>"Overborrowing, Underborrowing and Macroprudential Policy," with Fernando Arce and Julien Bengui. <em>Journal of Economic Theory</em>, June 2025.</li>
+    <li>"Bank Runs, Fragility, and Credit Easing," with Manuel Amador. <em>American Economic Review</em>, 114(7), July 2024.</li>
+    <li>"On Wars, Sanctions and Sovereign Default," with Cesar Sosa-Padilla. <em>Journal of Monetary Economics</em>, October 2023.</li>
+    <li>"The Macroeconomic Consequences of International Financial Sanctions," with Cesar Sosa-Padilla. <em>AEA Papers and Proceedings</em>, May 2023.</li>
+    <li>"Reserve Accumulation, Macroeconomic Stabilization and Sovereign Risk," with Cesar Sosa-Padilla. <em>Review of Economic Studies</em>, July 2023.</li>
+    <li>"Fiscal Stimulus under Sovereign Risk," with Pablo Ottonello and Ignacio Presno. <em>Journal of Political Economy</em>, 131(9), September 2023.</li>
+    <li>"Macroprudential Policy with Leakages," with Julien Bengui. <em>Journal of International Economics</em>, 139, November 2022.</li>
+    <li>"Research Agenda: Financial Crises and Prudential Policies." <em>Review of Economic Dynamics</em>, 23(1), April 2022.</li>
+    <li>"The Prudential Use of Capital Controls and Foreign Currency Reserves," with Guido Lorenzoni. <em>Handbook of International Economics</em>, Vol. VI, 2022.</li>
+    <li>"Banks, Liquidity Management and Monetary Policy," with Saki Bigio. <em>Econometrica</em>, 90(1): 391–454, January 2022.</li>
+    <li>"Monetary Independence and Rollover Crises," with Jorge Mondragon. <em>Quarterly Journal of Economics</em>, 137(1): 435–491, February 2022.</li>
+    <li>"A Fisherian Approach to Financial Crises: Lessons from the Sudden Stops Literature," with Enrique Mendoza. <em>Review of Economic Dynamics</em>, 37(1): 254–283, August 2020.</li>
+    <li>"Exchange Rate Policies at the Zero Lower Bound," with Manuel Amador, Luigi Bocola, and Fabrizio Perri. <em>Review of Economic Studies</em> (Featured Article), 87(4): 1605–1645, July 2020.</li>
+    <li>"Financial Safety Nets," with Julien Bengui and Louphou Coulibaly. <em>International Economic Review</em>, 60(1): 105–132, August 2019.</li>
+    <li>"International Reserves and Rollover Risk," with Juan Carlos Hatchondo and Leonardo Martinez. <em>American Economic Review</em>, 108(9): 2629–2670, 2018.</li>
+    <li>"Optimal Time-Consistent Macroprudential Policy," with Enrique Mendoza. <em>Journal of Political Economy</em>, 126(2): 588–634, 2018.</li>
+    <li>"Efficient Bailouts?" <em>American Economic Review</em> (Lead Article), 106(2): 3607–3659, 2016.</li>
+    <li>"Reverse Speculative Attacks," with Manuel Amador, Luigi Bocola, and Fabrizio Perri. <em>Journal of Economic Dynamics and Control</em>, 72: 125–137, 2016.</li>
+    <li>"Fundamentals News, Global Liquidity and Macroprudential Policy," with Chenxin Liu and Enrique Mendoza. <em>Journal of International Economics</em>, 99(1): 2–15, 2016.</li>
+    <li>"Macro-prudential Policy in a Fisherian Model of Financial Innovation," with Emine Boz and Enrique Mendoza. <em>IMF Economic Review</em>, 60(1): 223–269, 2012.</li>
+    <li>"Overborrowing and Systemic Externalities in the Business Cycle." <em>American Economic Review</em>, 101(7): 3400–3426, 2011.</li>
+    <li>"Credit Externalities: Macroeconomic Effects and Policy Implications." <em>American Economic Review Papers and Proceedings</em>, 100(2): 398–402, 2010.</li>
+  </ol>
+</div>
+
+<!-- ===== PUBLISHED COMMENTS ===== -->
+<div class="section">
+  <h2>Published Comments</h2>
+  <ol class="papers" start="28">
+    <li>Comment on Olivier Jeanne "Capital Account Policies and the Real Exchange Rate," <em>NBER International Seminar on Macroeconomics</em>, August 2012.</li>
+    <li>Comment on Oliver de Groot "The Risk Channel of Monetary Policy," <em>International Journal of Central Banking</em>, June 2014.</li>
+    <li>Comment on Alessandra Fogli and Fabrizio Perri, "Macroeconomic Volatility and External Imbalances," <em>Journal of Monetary Economics</em>, Vol. 69, January 2015.</li>
+  </ol>
+</div>
+
+<!-- ===== PAPERS UNDER REVISION ===== -->
+<div class="section">
+  <h2>Papers under Revision or Accepted</h2>
+  <ol class="papers" start="28">
+    <li>"How Should Monetary Policy Respond to Housing Inflation?," with Alisdair McKay and Neil Mehrotra. Revise and Resubmit, <em>Quarterly Journal of Economics</em>.</li>
+    <li>"Scrambling for Dollars: International Liquidity, Banks and Exchange Rates," with Saki Bigio and Charles Engel. Revise and Resubmit, <em>Review of Economic Studies</em>.</li>
+    <li>"Financial Integration and Monetary Policy Coordination," with Louphou Coulibaly. Revise and Resubmit, <em>Journal of Political Economy</em>.</li>
+    <li>"A Macroprudential Theory of Foreign Reserve Accumulation," with Fernando Arce and Julien Bengui. Revised and Resubmitted, <em>AEJ Macro</em>.</li>
+  </ol>
+</div>
+
+<!-- ===== WORKING PAPERS ===== -->
+<div class="section">
+  <h2>Working Papers</h2>
+  <ol class="papers" start="32">
+    <li>"How Small is Small? Non-linearities in Heterogeneous Agent Models," with Greg Kaplan. NBER Working Paper No. 35311.</li>
+    <li>"International Risk-Sharing in a Fragmented World," with Sebastian Horn, Giovanni Rosso, and Cesar Sosa-Padilla.</li>
+    <li>"Bank Runs, Fragility, and Regulation," with Manuel Amador.</li>
+    <li>"The Optimal Monetary Policy Response to Tariffs," with Louphou Coulibaly. NBER Working Paper No. 33560.</li>
+    <li>"Helicopter Drops and Liquidity Traps," with Manuel Amador. NBER Working Paper No. 31046.</li>
+    <li>"Partial Runs and Optimal Defaults," with Manuel Amador.</li>
+    <li>"The Political Economy of Macroprudential Policy and Capital Flows," with Carlos Bolivar and Cesar Sosa-Padilla.</li>
+    <li>"International Equity Flows, Monetary Policy, and Time Consistency," with Alejandro Van der Ghote.</li>
+  </ol>
+</div>
+
+<!-- ===== WORK IN PROGRESS ===== -->
+<div class="section">
+  <h2>Work in Progress</h2>
+  <ul class="papers">
+    <li>"Who Pays for Tariffs"</li>
+    <li>"Macroprudential Policy According to HANK," with Louphou Coulibaly and Xing Xu</li>
+    <li>"Foreign Reserve Management," with Manuel Amador, Luigi Bocola, and Fabrizio Perri</li>
+    <li>"Sovereign Debt Crises and Monetary Policy," with Carlos Bolivar</li>
+    <li>"The Political Economy of Macroprudential Policies and Capital Flow," with Cesar Sosa-Padilla and Carlos Bolivar</li>
+  </ul>
+</div>
+
+<!-- ===== OTHER WORKING PAPERS ===== -->
+<div class="section">
+  <h2>Other Working Papers</h2>
+  <ul class="papers">
+    <li>"Overborrowing, Financial Crises and Macroprudential Policy," with Enrique Mendoza. NBER Working Paper No. 16091, June 2010.</li>
+    <li>"Bailout Guarantees and Sovereign Debt Crises," with Sandra Lizarazo and Horacio Sapriza.</li>
+  </ul>
+</div>
+
+<!-- ===== TEACHING ===== -->
+<div class="section">
+  <h2>Teaching</h2>
+  <div class="row"><div class="row-year">2023, 2024, 2026</div><div class="row-body">International Macroeconomics, Ph.D. course, University of Minnesota</div></div>
+  <div class="row"><div class="row-year">2021</div><div class="row-body">Macroeconomics with Financial Frictions: Monetary and Macroprudential Policies, Swiss Doctoral Program in Economics, Gerzensee</div></div>
+  <div class="row"><div class="row-year">Spring 2013</div><div class="row-body">Undergraduate International Macroeconomics; Ph.D. International Macroeconomics, University of Wisconsin–Madison</div></div>
+  <div class="row"><div class="row-year">Spring 2014</div><div class="row-body">Undergraduate Intermediate Macroeconomics, University of Wisconsin–Madison</div></div>
+  <div class="row"><div class="row-year">Spring 2012</div><div class="row-body">Ph.D. International Macroeconomics, NYU</div></div>
+</div>
+
+<!-- ===== DISCUSSIONS ===== -->
+<div class="section">
+  <h2>Discussions</h2>
+
+  <div class="disc-row"><div class="disc-year">2024</div><div class="disc-body">BIS Annual Meetings: Clayton, Maggiori and Schreger, "A Theory of Economic Coercion and Fragmentation"</div></div>
+  <div class="disc-row"><div class="disc-year">2023</div><div class="disc-body">Conference in Honor of Guillermo Calvo: Corsetti and Maćkowiak, "Gambling to Preserve Price (and Fiscal) Stability"</div></div>
+  <div class="disc-row"><div class="disc-year">2022</div><div class="disc-body">Foundations of Monetary Economics: Papoutsi, Piazzesi and Schneider, "Can QE be market neutral? Monetary policy with many firms and securities"</div></div>
+  <div class="disc-row"><div class="disc-year">2022</div><div class="disc-body">NBER IFM Meetings: Devereux and Wu, "Foreign Reserves Management and Original Sin"</div></div>
+  <div class="disc-row"><div class="disc-year">2021</div><div class="disc-body">NBER IFM Meetings: Ottonello, Perez and Varraso, "Are Collateral-Constraint Models Ready for Macroprudential Policy Design?"</div></div>
+  <div class="disc-row"><div class="disc-year">2021</div><div class="disc-body">AEA Meetings: Davila and Walther, "Prudential Policy with Distorted Beliefs"</div></div>
+  <div class="disc-row"><div class="disc-year">2019</div><div class="disc-body">IMF Workshop: Adrian Duarte, Liang and Zabczyk, "Monetary and Macroprudential Policy with Endogenous Risk"</div></div>
+  <div class="disc-row"><div class="disc-year">2018</div><div class="disc-body">NBER IFM Fall Meetings: Gourinchas, Martin and Messer, "The Economics of Sovereign Debt, Bailouts and the Eurozone Crisis"</div></div>
+  <div class="disc-row"><div class="disc-year">2018</div><div class="disc-body">AEA Meetings: Gertler, Kiyotaki and Prestipino, "A Macroeconomic Model with Financial Panics"</div></div>
+  <div class="disc-row"><div class="disc-year">2017</div><div class="disc-body">ITAM PIER Workshop: Bocola and Lorenzoni, "Financial Crises and Lending of Last Resort in Open Economies"</div></div>
+  <div class="disc-row"><div class="disc-year">2015</div><div class="disc-body">Central Bank of Korea Annual Conference: Brunnermeier and Sannikov, "The I Theory of Money"</div></div>
+  <div class="disc-row"><div class="disc-year">2015</div><div class="disc-body">BIS Workshop: Alpanda, Cateau and Takamura, "Optimal Mix of Monetary, Macroprudential and Fiscal Policies"</div></div>
+  <div class="disc-row"><div class="disc-year">2014</div><div class="disc-body">NBER IFM Fall Meetings: Na, Schmitt-Grohe, Uribe, and Yue, "A Model of Twin D's"</div></div>
+  <div class="disc-row"><div class="disc-year">2014</div><div class="disc-body">Macro Financial Modeling Group: Lucas, "Evaluating the Cost of Government Credit Support: The OECD Context"</div></div>
+  <div class="disc-row"><div class="disc-year">2014</div><div class="disc-body">Carnegie-NYU-Rochester: Fogli and Perri, "Macroeconomic Volatility and External Imbalances"</div></div>
+  <div class="disc-row"><div class="disc-year">2014</div><div class="disc-body">AEA Meetings: Arellano and Bai, "Renegotiation Policies in Sovereign Defaults"</div></div>
+  <div class="disc-row"><div class="disc-year">2014</div><div class="disc-body">AEA Meetings: Magud, Reinhart and Rogoff, "Capital Controls: Myth and Reality"</div></div>
+  <div class="disc-row"><div class="disc-year">2013</div><div class="disc-body">IJCB Conference: De Groot, "The Risk Channel of Monetary Policy"</div></div>
+  <div class="disc-row"><div class="disc-year">2013</div><div class="disc-body">NBER Summer Institute: Cacciatore, Fiori, and Ghironi, "Market Deregulation and Optimal Monetary Policy in a Monetary Union"</div></div>
+  <div class="disc-row"><div class="disc-year">2012</div><div class="disc-body">NBER IFM Summer Institute: Schmitt-Grohé and Uribe, "Downward Nominal Wage Rigidity, Currency Pegs, and Involuntary Unemployment"</div></div>
+  <div class="disc-row"><div class="disc-year">2012</div><div class="disc-body">Pacific Basin Conference SFO Fed: Benigno and Fornaro, "Reserve Accumulation, Growth and Financial Crises"</div></div>
+  <div class="disc-row"><div class="disc-year">2012</div><div class="disc-body">NBER International Seminar on Macroeconomics: Jeanne, "Capital Account Policies and the Real Exchange Rate"</div></div>
+</div>
+
+<!-- ===== CONFERENCE ORGANIZATION ===== -->
+<div class="section">
+  <h2>Conference Organization</h2>
+  <div class="row"><div class="row-year">2023–2026</div><div class="row-body">Summer School in International Economics, by the JIE</div></div>
+  <div class="row"><div class="row-year">2014–</div><div class="row-body">RIDGE International-Macro Workshop</div></div>
+  <div class="row"><div class="row-year">2024</div><div class="row-body">Macroeconomic Policy Perspectives Conference on "Banking, Regulation and Macroeconomic Outcomes" (Minneapolis)</div></div>
+  <div class="row"><div class="row-year">2024</div><div class="row-body">System Conference on International Economics</div></div>
+  <div class="row"><div class="row-year">2023–2024</div><div class="row-body">Institute for Empirical Macroeconomics (Minneapolis Fed)</div></div>
+  <div class="row"><div class="row-year">2022</div><div class="row-body">Federal Reserve Bank of Minneapolis and <em>Journal of International Economics</em> Conference on "Sovereign Debt"</div></div>
+  <div class="row"><div class="row-year">2022</div><div class="row-body">Program committee member, XXVII Meeting of the Central Bank Researchers Network</div></div>
+  <div class="row"><div class="row-year">2022</div><div class="row-body">Program committee member, Computing in Economics and Finance</div></div>
+  <div class="row"><div class="row-year">2019</div><div class="row-body">Program committee member, Annual Meeting of the Central Bank Research Association (CEBRA)</div></div>
+  <div class="row"><div class="row-year">2018</div><div class="row-body">Co-organizer, Minnesota Workshop in Macroeconomic Theory</div></div>
+  <div class="row"><div class="row-year">2014–2016</div><div class="row-body">Program committee member, Society of Economic Dynamics Annual Meetings</div></div>
+  <div class="row"><div class="row-year">2013</div><div class="row-body">Co-organizer, International Economic Association Roundtable on "Capital Flows, Capital Controls and Monetary Policy"</div></div>
+</div>
+
+<!-- ===== DISSERTATION ADVISING ===== -->
+<div class="section">
+  <h2>Ph.D. Dissertation Advising</h2>
+  <p style="font-size:15px; color:#555; margin-bottom:8px;">Dissertation Committee Member (initial placement, *denotes chair/co-chair)</p>
+
+  <div class="students-group">
+    <div class="students-place">Wisconsin</div>
+    <div class="students-list">
+      Cheng-Ying-Yang (Institute of Economics, Academia Sinica)<br>
+      Jungjae Park (National University of Singapore)<br>
+      Jiao Shi (Peking University HSBC Business School)<br>
+      Nalini Prasad (University of New South Wales)
+    </div>
+  </div>
+  <div class="students-group">
+    <div class="students-place">Minnesota</div>
+    <div class="students-list">
+      Fernando Arce (Chicago Fed)<br>
+      Mauricio Barbosa-Alves (University of Kentucky)<br>
+      Carlos Bolivar (Universidad de Chile)<br>
+      Shiv Dixit (Indian School of Business)<br>
+      Jorge Mondragon (IMF)<br>
+      Agustin Samano (World Bank)<br>
+      Bryan Gutierrez (current student)<br>
+      Teerat Wongrattanapiboon (current student)<br>
+      Xing Xu (current student)
+    </div>
+  </div>
+  <div class="students-group">
+    <div class="students-place">Montreal</div>
+    <div class="students-list">Louphou Coulibaly* (Pittsburgh)</div>
+  </div>
+</div>
+
+<!-- ===== REFEREE ===== -->
+<div class="section">
+  <h2>Referee Activity</h2>
+  <p style="font-size:15.5px; font-style:italic; line-height:1.7; color:#333;">American Economic Review, Econometrica, Journal of Political Economy, Quarterly Journal of Economics, Review of Economic Studies, American Economic Journal, Canadian Journal of Economics, Economic Journal, Economics Letters, Economic Theory, European Economic Review, IMF Economic Review, International Economic Review, International Journal of Central Banking, Journal of Economic Dynamics and Control, Journal of European Economic Association, Journal of Economic Theory, Journal of International Economics, Journal of International Money and Finance, Journal of Economic Growth, Journal of Finance, Journal of Monetary Economics, Journal of Money Credit and Banking, Quantitative Economics, Quarterly Review of Economics and Finance, Review of Economic Dynamics, Scandinavian Journal of Economics, Theoretical Economics</p>
+  <p style="font-size:15px; margin-top:6px; color:#333;">Reviewer: National Science Foundation Grant Proposal, European Research Council, Swiss National Science Foundation</p>
+</div>
+
+<!-- ===== PERSONAL ===== -->
+<div class="section">
+  <h2>Personal</h2>
+  <p style="font-size:16px;">Born February 28, 1981; Married, four children; Uruguayan, Italian, and US citizen.</p>
+</div>
+
+<footer>
+  <hr style="border:none; border-top:1px solid #ddd; margin-bottom:14px;">
+  &copy; 2026 Javier Bianchi
+</footer>
+
+</div>
+</body>
+</html>
