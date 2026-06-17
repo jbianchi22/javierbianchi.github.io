@@ -521,7 +521,11 @@ document.querySelectorAll('.paper[data-abstract]').forEach(function(paper) {
     var open = abstractDiv.classList.toggle('open');
     toggle.textContent = open ? 'Abstract ▴' : 'Abstract ▾';
   });
-  if (linksDiv) linksDiv.appendChild(toggle);
+  if (linksDiv) {
+    var secondLink = linksDiv.querySelectorAll('a')[1];
+    if (secondLink) linksDiv.insertBefore(toggle, secondLink);
+    else linksDiv.appendChild(toggle);
+  }
 });
 </script>
 </body>
