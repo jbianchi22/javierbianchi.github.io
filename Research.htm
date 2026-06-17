@@ -41,7 +41,11 @@
   .paper-links a { font-size: 13.2px; color: #1d4e89; text-decoration: none; }
   .paper-links a + a::before { content: ' | '; color: #bbb; }
   .paper-links a:hover { text-decoration: underline; }
-  .paper-abstract { display: none; margin-top: 8px; padding-top: 10px; border-top: 1px solid #ece8e3; font-size: 14.3px; color: #555; line-height: 1.65; }
+  .abstract-section { margin-top: 10px; }
+  .abstract-header { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; user-select: none; font-size: 11.5px; font-weight: 500; letter-spacing: 0.08em; color: #666; text-transform: uppercase; }
+  .abstract-header:hover { color: #333; }
+  .abstract-icon { display: inline-flex; align-items: center; justify-content: center; width: 13px; height: 13px; background: #4a80be; color: #fff; font-size: 13px; font-weight: 300; line-height: 1; border-radius: 2px; flex-shrink: 0; }
+  .paper-abstract { display: none; margin-top: 8px; font-size: 14.3px; color: #555; line-height: 1.65; }
   .paper-abstract.open { display: block; }
   .simple-item { margin-bottom: 16px; }
   .topic-nav { margin-bottom: 42px; padding-bottom: 18px; border-bottom: 1px solid #e0dbd4; font-size: 15.4px; color: #777; }
@@ -508,20 +512,27 @@ document.querySelectorAll('.paper[data-abstract]').forEach(function(paper) {
   var text = paper.getAttribute('data-abstract');
   if (!text.trim()) return;
   var infoDiv = paper.querySelector('.paper-info');
-  var linksDiv = paper.querySelector('.paper-links');
+  var sectionDiv = document.createElement('div');
+  sectionDiv.className = 'abstract-section';
+  var headerDiv = document.createElement('div');
+  headerDiv.className = 'abstract-header';
+  var iconSpan = document.createElement('span');
+  iconSpan.className = 'abstract-icon';
+  iconSpan.textContent = '+';
+  var labelSpan = document.createElement('span');
+  labelSpan.textContent = 'Abstract';
+  headerDiv.appendChild(iconSpan);
+  headerDiv.appendChild(labelSpan);
   var abstractDiv = document.createElement('div');
   abstractDiv.className = 'paper-abstract';
   abstractDiv.textContent = text;
-  infoDiv.appendChild(abstractDiv);
-  var toggle = document.createElement('a');
-  toggle.href = '#';
-  toggle.textContent = 'Abstract ▾';
-  toggle.addEventListener('click', function(e) {
-    e.preventDefault();
+  sectionDiv.appendChild(headerDiv);
+  sectionDiv.appendChild(abstractDiv);
+  infoDiv.appendChild(sectionDiv);
+  headerDiv.addEventListener('click', function() {
     var open = abstractDiv.classList.toggle('open');
-    toggle.textContent = open ? 'Abstract ▴' : 'Abstract ▾';
+    iconSpan.textContent = open ? '−' : '+';
   });
-  if (linksDiv) linksDiv.appendChild(toggle);
 });
 </script>
 </body>
