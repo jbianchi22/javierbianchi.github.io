@@ -41,7 +41,7 @@
   .paper-links a { font-size: 13.2px; color: #1d4e89; text-decoration: none; }
   .paper-links a + a::before { content: ' | '; color: #bbb; }
   .paper-links a:hover { text-decoration: underline; }
-  .paper-abstract { display: none; padding: 14px 0 28px; font-size: 14.3px; color: #555; line-height: 1.65; }
+  .paper-abstract { display: none; margin-top: 8px; padding-top: 10px; border-top: 1px solid #ece8e3; font-size: 14.3px; color: #555; line-height: 1.65; }
   .paper-abstract.open { display: block; }
   .simple-item { margin-bottom: 16px; }
   .topic-nav { margin-bottom: 42px; padding-bottom: 18px; border-bottom: 1px solid #e0dbd4; font-size: 15.4px; color: #777; }
@@ -507,11 +507,12 @@
 document.querySelectorAll('.paper[data-abstract]').forEach(function(paper) {
   var text = paper.getAttribute('data-abstract');
   if (!text.trim()) return;
+  var infoDiv = paper.querySelector('.paper-info');
   var linksDiv = paper.querySelector('.paper-links');
   var abstractDiv = document.createElement('div');
   abstractDiv.className = 'paper-abstract';
   abstractDiv.textContent = text;
-  paper.parentNode.insertBefore(abstractDiv, paper.nextSibling);
+  infoDiv.appendChild(abstractDiv);
   var toggle = document.createElement('a');
   toggle.href = '#';
   toggle.textContent = 'Abstract ▾';
@@ -519,13 +520,6 @@ document.querySelectorAll('.paper[data-abstract]').forEach(function(paper) {
     e.preventDefault();
     var open = abstractDiv.classList.toggle('open');
     toggle.textContent = open ? 'Abstract ▴' : 'Abstract ▾';
-    if (open) {
-      paper.style.marginBottom = '0';
-      paper.style.paddingBottom = '14px';
-    } else {
-      paper.style.marginBottom = '';
-      paper.style.paddingBottom = '';
-    }
   });
   if (linksDiv) linksDiv.appendChild(toggle);
 });
