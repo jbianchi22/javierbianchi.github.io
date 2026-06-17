@@ -41,6 +41,8 @@
   .paper-links a { font-size: 13.2px; color: #1d4e89; text-decoration: none; }
   .paper-links a + a::before { content: ' | '; color: #bbb; }
   .paper-links a:hover { text-decoration: underline; }
+  .paper-abstract { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px solid #ece8e3; font-size: 14.3px; color: #555; line-height: 1.65; }
+  .paper-abstract.open { display: block; }
   .simple-item { margin-bottom: 16px; }
   .topic-nav { margin-bottom: 42px; padding-bottom: 18px; border-bottom: 1px solid #e0dbd4; font-size: 15.4px; color: #777; }
   .topic-nav a { color: #1d4e89; text-decoration: none; margin: 0 6px; white-space: nowrap; }
@@ -112,7 +114,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We study the optimal monetary policy response to tariffs. We show that a tariff acts like a negative supply shock that creates a policy tradeoff between output stabilization and inflation. We find that the optimal response is expansionary: the central bank should cut interest rates, tolerating higher inflation in order to boost output and employment. The key mechanism is that tariffs generate fiscal revenues that are rebated to households, but consumers and firms fail to internalize this fiscal channel, leading to excess contraction. Monetary expansion corrects this externality. We show that standard policy rules—including flexible average inflation targeting—fall short of the optimum.">
       <div class="paper-figure"><img src="figures/fig_tariffs.png" alt="Baseline response to a permanent tariff"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/Tariffs_MonetaryPolicy.pdf">The Optimal Monetary Policy Response to Tariffs</a></div>
@@ -501,5 +503,26 @@
 </div>
 
 <footer>&copy; 2026 Javier Bianchi</footer>
+<script>
+document.querySelectorAll('.paper[data-abstract]').forEach(function(paper) {
+  var text = paper.getAttribute('data-abstract');
+  if (!text.trim()) return;
+  var infoDiv = paper.querySelector('.paper-info');
+  var linksDiv = paper.querySelector('.paper-links');
+  var abstractDiv = document.createElement('div');
+  abstractDiv.className = 'paper-abstract';
+  abstractDiv.textContent = text;
+  infoDiv.appendChild(abstractDiv);
+  var toggle = document.createElement('a');
+  toggle.href = '#';
+  toggle.textContent = 'Abstract';
+  toggle.addEventListener('click', function(e) {
+    e.preventDefault();
+    var open = abstractDiv.classList.toggle('open');
+    toggle.textContent = open ? 'Abstract ▴' : 'Abstract';
+  });
+  if (linksDiv) linksDiv.appendChild(toggle);
+});
+</script>
 </body>
 </html>
