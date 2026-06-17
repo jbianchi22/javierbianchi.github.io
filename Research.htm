@@ -41,7 +41,7 @@
   .paper-links a { font-size: 13.2px; color: #1d4e89; text-decoration: none; }
   .paper-links a + a::before { content: ' | '; color: #bbb; }
   .paper-links a:hover { text-decoration: underline; }
-  .abstract-section { margin-top: 10px; }
+  .abstract-section { margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid #ece8e3; }
   .abstract-header { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; user-select: none; font-size: 11.5px; font-weight: 500; letter-spacing: 0.08em; color: #666; text-transform: uppercase; }
   .abstract-header:hover { color: #333; }
   .abstract-icon { display: inline-flex; align-items: center; justify-content: center; width: 13px; height: 13px; background: #4a80be; color: #fff; font-size: 13px; font-weight: 300; line-height: 1; border-radius: 2px; flex-shrink: 0; }
@@ -528,7 +528,12 @@ document.querySelectorAll('.paper[data-abstract]').forEach(function(paper) {
   abstractDiv.textContent = text;
   sectionDiv.appendChild(headerDiv);
   sectionDiv.appendChild(abstractDiv);
-  infoDiv.appendChild(sectionDiv);
+  var isLast = !paper.nextElementSibling;
+  paper.style.borderBottom = 'none';
+  paper.style.paddingBottom = '0';
+  paper.style.marginBottom = '0';
+  paper.parentNode.insertBefore(sectionDiv, paper.nextSibling);
+  if (isLast) { sectionDiv.style.borderBottom = 'none'; sectionDiv.style.paddingBottom = '0'; sectionDiv.style.marginBottom = '0'; }
   headerDiv.addEventListener('click', function() {
     var open = abstractDiv.classList.toggle('open');
     iconSpan.textContent = open ? '−' : '+';
