@@ -25,23 +25,23 @@
   .container { max-width: 960px; margin: 0 auto; padding: 50px 40px 80px; }
   .section { margin-bottom: 50px; }
   .section h2 { font-family: 'EB Garamond', serif; font-size: 26.4px; font-weight: 500; color: #1b2a4a; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #e0dbd4; }
-  .paper { display: flex; gap: 24px; align-items: flex-start; margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid #ece8e3; }
+  .paper { display: flex; gap: 24px; align-items: flex-start; margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid #ece8e3; flex-wrap: wrap; }
   .paper:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
   .paper-figure { flex-shrink: 0; width: 231px; height: 158px; border-radius: 3px; overflow: hidden; }
   .paper-figure svg { width: 100%; height: 100%; }
   .paper-figure img { width: 100%; height: 100%; object-fit: cover; object-position: center center; display: block; background: #fff; }
   .paper-info { flex: 1; }
-  .paper-title { font-weight: 500; color: #1b2a4a; font-size: 16.5px; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .paper-title { font-weight: 500; color: #1b2a4a; font-size: 16.5px; margin-bottom: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .paper-title.no-paper-title { color: #1d4e89; }
   .paper-title a { color: #1d4e89; text-decoration: none; }
   .paper-title a:hover { text-decoration: underline; }
-  .paper-authors { font-size: 14.85px; color: #777; margin-bottom: 2px; }
+  .paper-authors { font-size: 14.85px; color: #777; margin-bottom: 1px; }
   .paper-journal { font-size: 14.3px; color: #999; font-style: italic; }
-  .paper-links { margin-top: 5px; }
+  .paper-links { margin-top: 2px; }
   .paper-links a { font-size: 13.2px; color: #1d4e89; text-decoration: none; }
   .paper-links a + a::before { content: ' | '; color: #bbb; }
   .paper-links a:hover { text-decoration: underline; }
-  .paper-abstract { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px solid #ece8e3; font-size: 14.3px; color: #555; line-height: 1.65; }
+  .paper-abstract { width: 100%; display: none; padding-top: 12px; border-top: 1px solid #ece8e3; font-size: 14.3px; color: #555; line-height: 1.65; }
   .paper-abstract.open { display: block; }
   .simple-item { margin-bottom: 16px; }
   .topic-nav { margin-bottom: 42px; padding-bottom: 18px; border-bottom: 1px solid #e0dbd4; font-size: 15.4px; color: #777; }
@@ -96,7 +96,7 @@
   <div class="section" id="working-papers">
     <h2>Working Papers</h2>
 
-    <div class="paper">
+    <div class="paper" data-abstract="In plausibly calibrated heterogeneous-agent models, marginal propensities to consume (MPCs) are highly non-linear in wealth, falling sharply away from borrowing constraints. As a result, the aggregate consumption response to a fiscal transfer is strongly concave in its size: larger transfers shift households out of high-MPC regions, dampening the consumption response. Across partial- and general-equilibrium settings, linear methods substantially overstate the effects of fiscal stimulus at empirically relevant sizes. Local methods of any order are unlikely to be reliable in settings where a failure of Ricardian equivalence from high MPCs is important.">
       <div class="paper-figure"><img src="figures/Small_is_Small_fig3a.png" alt="Figure 3a for How Small is Small? Non-linearities in Heterogeneous Agent Models"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/Bianchi_Kaplan_June2026.pdf">How Small is Small? Non-linearities in Heterogeneous Agent Models</a></div>
@@ -105,7 +105,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="This paper studies the effects of geopolitical risk on financial fragmentation and international risk-sharing based on bilateral (government-to-government) lending from 1910 to 2024. We show that in periods of high geopolitical risk, bilateral lending increasingly follows patterns of geopolitical alignment. Because geopolitically aligned countries face more synchronized shocks, this fragmentation limits the effectiveness of international risk-sharing. To explain these patterns, we introduce geopolitical considerations into a limited-commitment model and show that, even with non-discriminatory default, higher geopolitical tensions redirect international lending toward aligned countries and weaken risk-sharing.">
       <div class="paper-figure"><img src="figures/fig_fragmentation.png" alt="International Risk-Sharing in a Fragmented World"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/Fragmentation_BHRS.pdf">International Risk-Sharing in a Fragmented World</a></div>
@@ -114,7 +114,7 @@
       </div>
     </div>
 
-    <div class="paper" data-abstract="We study the optimal monetary policy response to tariffs. We show that a tariff acts like a negative supply shock that creates a policy tradeoff between output stabilization and inflation. We find that the optimal response is expansionary: the central bank should cut interest rates, tolerating higher inflation in order to boost output and employment. The key mechanism is that tariffs generate fiscal revenues that are rebated to households, but consumers and firms fail to internalize this fiscal channel, leading to excess contraction. Monetary expansion corrects this externality. We show that standard policy rules—including flexible average inflation targeting—fall short of the optimum.">
+    <div class="paper" data-abstract="What is the optimal monetary policy response to tariffs? This paper addresses this question in an open-economy New Keynesian model, characterizes the macroeconomic effects of tariffs, and shows that the Ramsey optimal response is expansionary, with inflation rising above and beyond the direct effects of tariffs. We find that tariffs affect output through a labor supply channel that operates even without movements in exchange rates or terms of trade. Moreover, under optimal policy, the nominal exchange rate depreciates and the trade deficit narrows—even for permanent tariffs—contrary to the conventional view. These results hold whether tariffs apply to consumption goods or intermediate inputs, whether the shock is temporary or permanent, and whether terms of trade are exogenous or endogenous. When tariffs are used to correct other distortions, the optimal stance remains expansionary, although the associated inflationary effects are attenuated.">
       <div class="paper-figure"><img src="figures/fig_tariffs.png" alt="Baseline response to a permanent tariff"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/Tariffs_MonetaryPolicy.pdf">The Optimal Monetary Policy Response to Tariffs</a></div>
@@ -123,7 +123,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We develop a theory of macroprudential banking regulation in which bank defaults arise endogenously from both fundamentals and self-fulfilling runs. As a benchmark, we show that equilibrium is constrained efficient when defaults are driven only by fundamentals. By contrast, when runs are possible, banks choose inefficiently high leverage. Each bank fails to internalize that lower leverage raises future asset prices, which improves other banks' liquidity in a run, and reduces the equilibrium probability of costly default. Minimum capital requirements can therefore improve market outcomes.">
       <div class="paper-figure"><img src="figures/fig_bankruns_reg.png" alt="Leverage: competitive equilibrium vs constrained-efficient as a function of run probability"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/BankRuns_Fragility_and_Regulation.pdf">Bank Runs, Fragility, and Regulation</a></div>
@@ -132,7 +132,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="A persistent rise in rents has kept inflation above target in many advanced economies. Optimal policy in the standard New Keynesian (NK) model requires policy to stabilize housing inflation. We argue that the basic architecture of the NK model—that excess demand is always satisfied by producers—is inappropriate for the housing market, and we develop a matching framework that allows for demand rationing. Our analysis shows that the optimal response to a housing demand shock is to stabilize inflation in the non-housing sector while disregarding housing inflation. These findings hold exactly in a version of the model with costless search and quantitatively in a version with housing search costs calibrated to match US data on housing tenure, vacancy rates, and the size of the real estate sector.">
       <div class="paper-figure"><img src="figures/fig_housing.png" alt="Shelter inflation lags core ex-shelter PCE"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/HousingInflation.pdf">How Should Monetary Policy Respond to Housing Inflation?</a></div>
@@ -143,7 +143,7 @@
     </div>
 
 
-    <div class="paper">
+    <div class="paper" data-abstract="We develop a theory of exchange rate fluctuations arising from financial institutions' demand for liquid assets. Financial flows are unpredictable and may leave banks scrambling for dollars. Because of settlement frictions in interbank markets, a precautionary demand for dollar reserves emerges, giving rise to an endogenous dollar convenience yield. We find that US dollar funding risk fluctuations contribute significantly to deviations from covered interest parity and exchange rate fluctuations. We show evidence of a tight connection between exchange rate fluctuations for the G10 currencies and the quantity of dollar liquidity consistent with the theory.">
       <div class="paper-figure"><img src="figures/fig_scrambling.png" alt="Exchange rate as a function of dollar funding risk: scrambling vs normal regime"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/ScramblingDollarsLiquidity.pdf">Scrambling for Dollars: International Liquidity, Banks and Exchange Rates</a></div>
@@ -153,7 +153,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="Financial integration generates macroeconomic spillovers that may require international monetary policy coordination. We show that individual central banks may set nominal interest rates too low or too high relative to the cooperative outcome. We identify three sufficient statistics that determine whether the Nash equilibrium exhibits under-tightening or over-tightening: the output gap, sectoral differences in labor intensity, and the trade balance response to changes in nominal rates. Independently of the shocks hitting the economy, we find that under-tightening is possible during economic expansions or contractions. For large shocks, the gains from coordination can be substantial.">
       <div class="paper-figure"><img src="figures/fig_coordination.png" alt="Policy rates: US, UK, CAN, EUR, 2020-2023"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/CoordinationMonetary.pdf">Financial Integration and Monetary Policy Coordination</a></div>
@@ -163,7 +163,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We propose a macroprudential theory of foreign reserve accumulation that can rationalize the secular trends in public and private international capital flows. In middle-income countries, the increase in international reserves has been associated with elevated private capital inflows, both in the aggregate and in the cross-section, and economies with a more open capital account have accumulated more reserves. We present an open economy model of financial crises that is consistent with these features. We show that the optimal reserve management policy leans against the wind, raising gross private borrowing while improving the net foreign asset position and reducing the exposure to crises.">
       <div class="paper-figure"><img src="figures/fig_reserves_macropru.png" alt="Reserves as percent of output: data vs model, 2001-2015"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/Reserves_macropru.pdf">A Macroprudential Theory of Foreign Reserve Accumulation</a></div>
@@ -173,7 +173,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="During a liquidity trap, increases in the money supply have no real effects, as the nominal interest rate has reached its lower bound. We propose a theory of how helicopter drops of money can be effective during a liquidity trap. We develop a New Keynesian monetary model where the fiscal and monetary authorities are separated, and the latter faces balance sheet constraints. If the monetary authority can commit, helicopter drops are unnecessary in a liquidity trap, even under balance sheet constraints. However, we show that helicopter drops can help stabilize the economy when the monetary authority lacks commitment.">
       <div class="paper-figure"><img src="figures/fig_helicopter.png" alt="Output response: No Helicopter Drop vs Commitment"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/Helicopter_drops.pdf">Helicopter Drops and Liquidity Traps</a></div>
@@ -182,7 +182,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We study how political economy frictions reshape macroprudential policy and the dynamics of credit booms in an open-economy model of financial crises. When policymakers with heterogeneous regulatory biases alternate in power, a forward-looking responsible regulator tightens preemptively—setting tighter capital controls even when near-term risks are low. Quantitatively, political frictions generate regulatory cycles in which extended tranquility is followed by deregulation and crises, consistent with event-study evidence around sudden stops. Finally, the framework clarifies why conventional empirical estimates can understate the effects of regulation on capital flows, and shows how political shocks can be used to remedy this endogeneity.">
       <div class="paper-figure"><img src="figures/fig_political_macropru.png" alt="Tax on borrowing around crises: Data, Political Frictions, Constrained Efficient"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/political_economy_macropru.pdf">The Political Economy of Credit Booms and Macroprudential Regulation</a></div>
@@ -193,7 +193,7 @@
 
     
 
-    <div class="paper">
+    <div class="paper" data-abstract="An equilibrium model of financial crises driven by Irving Fisher's financial amplification mechanism features a pecuniary externality, because private agents do not internalize how the price of assets used for collateral respond to collective borrowing decisions, particularly when binding collateral constraints cause asset fire-sales and lead to a financial crisis. As a result, agents in the competitive equilibrium borrow &quot;too much&quot; ex ante, compared with a financial regulator who internalizes the externality. Quantitative analysis calibrated to U.S. data shows that average debt and leverage are only slightly larger in the competitive equilibrium, but the incidence and magnitude of financial crises are much larger. Excess asset returns, Sharpe ratios and the price of risk are also much larger, and the distribution of returns displays endogenous fat tails. State-contingent taxes on debt and dividends of about 1 and -0.5 percent on average respectively support the regulator's allocations as a competitive equilibrium.">
       <div class="paper-figure"><img src="figures/fig_overborrowing_2010.png" alt="Credit response around a crisis: decentralized vs financial regulator vs fixed valuation"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/macroprudential.pdf">Overborrowing, Financial Crises and Macro-prudential Policy</a></div>
@@ -202,7 +202,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We investigate the efficiency of banks' defaults using a dynamic general equilibrium model. The model features a continuum of identical banks that trade assets in a competitive market and may default due to fundamentals or self-fulfilling runs. For intermediate debt values, the competitive equilibrium must be of a mixed type, where a fraction of banks default and a fraction of banks repay. In the absence of self-fulfilling runs, we show that there are too few defaults relative to the social optimal, while there are too many defaults in the presence of self-fulfilling runs.">
       <div class="paper-figure"><img src="figures/fig_partial_runs.png" alt="Partial Bank Runs"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Partial_bank_runs.pdf">Partial Bank Runs</a></div>
@@ -239,7 +239,7 @@
   <div class="section" id="publications">
     <h2>Publications</h2>
 
-    <div class="paper">
+    <div class="paper" data-abstract="This paper investigates how a government should manage international reserves when it faces the risk of a rollover crisis. We ask, should the government accumulate reserves or reduce debt to make itself less vulnerable? We show that the optimal policy entails initially reducing debt, followed by a subsequent increase in both debt and reserves as the government approaches a safe zone. Furthermore, we find that issuing additional debt to accumulate reserves can lead to a reduction in sovereign spreads. Evidence from a panel of emerging economies is consistent with these predictions: increases in reserves financed by public external borrowing are associated with lower spreads, and reserve holdings are not systematically drawn down during crisis episodes.">
       <div class="paper-figure"><img src="figures/fig_reserves_rollover.png" alt="Three-periods exit: portfolio paths in (a, b) space"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/Reserves_rollover_crises.pdf">International Reserve Management under Rollover Crises</a></div>
@@ -249,7 +249,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We investigate optimal monetary and macroprudential policies in an open economy with aggregate demand externalities and an occasionally binding zero lower bound constraint. Our analysis highlights that the optimal policy balances output stabilization and capital flow management. When macroprudential policy is available, monetary policy stabilizes the output gap. By contrast, when macroprudential policy is not available, monetary policy is used prudentially. However, contrary to a widespread view, raising the interest rate is not necessarily the optimal prudential policy. Finally, we show that international spillovers operate through the world real rate, but macroprudential policies provide insulation from the adverse effects of foreign policies.">
       <div class="paper-figure"><img src="figures/fig_liquidity_traps.png" alt="Probability of liquidity trap: inflation targeting vs prudential monetary"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/LiquidityTraps_Prudential.pdf">Liquidity Traps, Prudential Policies and International Spillovers</a></div>
@@ -259,7 +259,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We study settlement frictions that arise from the need to finance negative balances through an over-the-counter (OTC) market. We derive a closed-form expression for the endogenous convenience yield and show how it can be incorporated into a canonical portfolio problem. Using this framework, we examine how shifts in settlement frictions affect liquidity premia, the volume of overnight funding, the dispersion of market rates, and optimal portfolio allocations. From a normative perspective, we show that in the competitive equilibrium, investors may either over- or under-invest in liquid assets; moreover, both higher risk aversion and tighter aggregate liquidity increase the likelihood of under-accumulation.">
       <div class="paper-figure"><img src="figures/fig_convenience_yields.png" alt="Convenience yield function and settlement risk distribution"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_working/Portfolios_convenience_yields.pdf">Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields</a></div>
@@ -269,7 +269,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="Central banks with flexible exchange rate regimes are often reluctant to let their currency float, a phenomenon known as &quot;fear of floating.&quot; We develop a framework in which a floating exchange rate may exacerbate vulnerability to self-fulfilling financial crises rather than provide the intended insulation against external shocks. A commitment to a crawling peg—where the currency can fluctuate within a predetermined band—can help mitigate the risk of self-fulfilling crises. In contrast to the Mundell-Fleming paradigm, the optimal exchange rate policy entails allowing the exchange rate to float in response to real shocks while maintaining it fixed in response to non-fundamental shocks.">
       <div class="paper-figure"><img src="figures/fig_fear_floating.png" alt="Event analysis: tradable output, bonds, exchange rate, and consumption around self-fulfilling crises"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/FearOfFloating.pdf">A Theory of Fear of Floating</a></div>
@@ -279,7 +279,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We propose a simple monetary model to investigate the implications of international financial sanctions for the preeminence of the US dollar in the international financial system. We show how the anticipation of financial sanctions can reduce the US dollar convenience yield and the holdings of US dollar assets. We also evaluate the implications for welfare and show that they are generally detrimental for all countries.">
       <div class="paper-figure"><img src="figures/fig_sanctions_dollar.png" alt="Demand and supply of dollar assets shifting with sanctions"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/SanctionsDollarDominance.pdf">International Sanctions and Dollar Dominance</a></div>
@@ -289,7 +289,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="In this paper, we revisit the scope for macroprudential policy in production economies with pecuniary externalities and collateral constraints. We study competitive equilibria and constrained-efficient equilibria and examine the extent to which the gap between the two depends on the production structure and the policy instruments available to the planner. We argue that macroprudential policy is desirable regardless of whether the competitive equilibrium features more or less borrowing than the constrained-efficient equilibrium. In our quantitative analysis, macroprudential taxes on borrowing turn out to be larger when the government has access to ex-post stabilization policies.">
       <div class="paper-figure"><img src="figures/fig_overunder.png" alt="Debt policy: laissez-faire vs ex-ante policy"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/OverUnder_Borrowing.pdf">Overborrowing, Underborrowing and Macroprudential Policy</a></div>
@@ -299,7 +299,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We present a tractable dynamic general equilibrium model of self-fulfilling bank runs, where banks trade capital in competitive and liquid markets but remain vulnerable to runs due to a loss of creditor confidence. We characterize how the vulnerability of an individual bank depends on its leverage position and the economy wide asset prices. We study the effect of credit easing policies, in the form of asset purchases. When a banking crisis is generated by runs, credit easing can reduce the number of defaulting banks and enhance welfare. When the crisis is driven by fundamentals, credit easing may have adverse consequences.">
       <div class="paper-figure"><img src="figures/fig_bankruns_AB.png" alt="Banks' welfare gains from credit easing under Runs vs Fundamentals"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Bank_Runs_AB.pdf">Bank Runs, Fragility, and Credit Easing</a></div>
@@ -309,7 +309,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="This paper explores the role of restrictions on the use of international reserves as economic sanctions. We develop a simple model of the strategic game between a sanctioning (creditor) country and a sanctioned (debtor) country. We characterize how the sanctioning country should impose restrictions optimally, internalizing the geopolitical benefits and the potential losses of a default by the sanctioned country. A calibrated version of the model can account for the sequence of events leading to the Russian default. Moreover, it suggests that for every dollar of economic damage inflicted to Russia, the US is willing to give up 0.50 dollars of its own consumption.">
       <div class="paper-figure"><img src="figures/fig_russian_default.png" alt="Home Country welfare W̃(a) under high η vs low η"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Russian_default.pdf">On Wars, Sanctions and Sovereign Default</a></div>
@@ -319,7 +319,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="In the past three decades, governments in emerging markets have accumulated large amounts of international reserves, especially those with fixed exchange rates. This paper proposes a theory of reserve accumulation that can account for these facts. Using a model of endogenous sovereign default with nominal rigidities, we argue that the interaction between sovereign risk and aggregate demand amplification generates a macroeconomic-stabilization hedging role for international reserves. We show that issuing debt to purchase reserves during good times allows the government to stabilize aggregate demand when sovereign spreads rise and rolling over the debt becomes more expensive. We provide empirical evidence consistent with the model's predictions.">
       <div class="paper-figure"><img src="figures/fig_reserves_macrostab.png" alt="Reserves/GDP for fixed vs flex regimes: data and model"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/ReservesMacroStabilization_forthcoming.pdf">Reserve Accumulation, Macroeconomic Stabilization and Sovereign Risk</a></div>
@@ -339,7 +339,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="What is the optimal fiscal policy response to a recession when the government is subject to sovereign risk? We study this question in a model of endogenous sovereign default with nominal rigidities. Increasing spending in a recession reduces unemployment, but exposes the government to a debt crisis. We quantitatively analyze this trade-off between stimulus and austerity and find that expanding government spending may be undesirable, even in the presence of sizeable Keynesian stabilization gains and inequality concerns. Consistent with these findings, we show that sovereign risk is a key driver of the fiscal procyclicality observed worldwide.">
       <div class="paper-figure"><img src="figures/fig_fiscal_stimulus.png" alt="Government consumption (% of pre-crisis level) for Greece, Ireland, Italy, Portugal, Spain, and Average, 2008–2014"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Fiscal_stimulus_default.pdf">Fiscal Stimulus under Sovereign Risk</a></div>
@@ -349,7 +349,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We explore how imperfect regulation enforcement affects the design of optimal macroprudential policy. We study an open economy workhorse model of macroprudential regulation motivated by pecuniary externalities. Our analytical characterization shows that imperfect enforcement generates two opposing effects. While tighter regulation leads to higher borrowing by unregulated agents, a &quot;leakage effect&quot;, mitigating the increase in fragility calls for &quot;squeezing&quot; regulated agents further. Quantitative simulations show that, overall, a macroprudential policy that accounts for the leakages remains successful at mitigating the vulnerability to financial crises.">
       <div class="paper-figure"><img src="figures/fig_leakages.png" alt="Welfare effects: unregulated vs regulated agents"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Macroprudential_with_Leakages_2022.pdf">Macroprudential Policy with Leakages</a></div>
@@ -359,7 +359,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We provide a simple framework to study the prudential use of capital controls and currency reserves that have been explored in the recent literature. We cover the role of both pecuniary externalities and aggregate demand externalities. The model features a central policy dilemma for emerging economies facing large capital outflows: the choice between increasing the policy rate to stabilize the exchange rate and decreasing the policy rate to stabilize employment. Ex ante capital controls and reserve accumulation can help mitigate this dilemma. We use our framework to survey the recent literature and provide an overview of recent empirical findings on the use of these policies.">
       <div class="paper-figure"><img src="figures/fig_handbook.png" alt="Mechanics of FX interventions: intertemporal consumption schedule"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/handbook_capital_controls.pdf">The Prudential Use of Capital Controls and Foreign Currency Reserves</a></div>
@@ -369,7 +369,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We develop a tractable model of banks' liquidity management with an over-the-counter interbank market to study the credit channel of monetary policy. Deposits circulate randomly across banks and must be settled with reserves. We show how monetary policy affects the banking system by altering the trade-off between profiting from lending and incurring greater liquidity risk. We present two applications of the theory, one involving the connection between the implementation of monetary policy and the pass-through to lending rates, and another considering a quantitative decomposition behind the collapse in bank lending during the 2008 financial crisis. Our analysis underscores the importance of liquidity frictions and the functioning of interbank markets for the conduct of monetary policy.">
       <div class="paper-figure"><img src="figures/fig_banking_ecma.png" alt="OTC market: Fed Funds Rate and lending bounds as a function of reserve abundance"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Banking_ecma.pdf">Banks, Liquidity Management and Monetary Policy</a></div>
@@ -379,7 +379,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="This article shows that the inability to use monetary policy for macroeconomic stabilization leaves a government more vulnerable to a rollover crisis. We study a sovereign default model with self-fulfilling rollover crises, foreign currency debt, and nominal rigidities. When the government lacks monetary independence, lenders anticipate that the government would face a severe recession in the event of a liquidity crisis and are therefore more prone to run on government bonds. In a quantitative application to the Eurozone debt crisis, we find that the lack of monetary autonomy played a central role in making Spain vulnerable to a rollover crisis. Finally, we argue that a lender of last resort can go a long way toward reducing the costs of giving up monetary independence.">
       <div class="paper-figure"><img src="figures/fig_monetary_rollover.png" alt="Safe, crisis, and default regions in (debt, wage rigidity) space"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Monetary_Rollover_QJE.pdf">Monetary Independence and Rollover Crises</a></div>
@@ -389,7 +389,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="Sudden Stops are financial crises defined by a large, sudden current-account reversal. They occur in both advanced and emerging economies and result in deep recessions, collapsing asset prices, and real exchange-rate depreciations. They are preceded by economic expansions, current-account deficits, credit booms, and appreciated asset prices and real exchange rates. Fisherian models explain these stylized facts as an outcome of Irving Fisher's debt-deflation mechanism. On the normative side, these models feature a pecuniary externality that provides a foundation for macroprudential policy. We review the stylized facts of Sudden Stops, the evidence on macroprudential policy use and effectiveness, and the findings of the literature on Fisherian models. Quantitatively, Fisherian amplification is strong and optimal macroprudential policy reduces sharply the size and frequency of crises, but it is also complex and potentially time-inconsistent, and simple rules are less effective.">
       <div class="paper-figure"><img src="figures/fig_fisherian.png" alt="CA/Y around Sudden Stops: unregulated vs debt tax"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Fisherian_RED.pdf">A Fisherian Approach to Financial Crises: Lessons from the Sudden Stops Literature</a></div>
@@ -399,7 +399,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We study the problem of a monetary authority pursuing an exchange rate policy that is inconsistent with interest rate parity because of a binding zero lower bound constraint. The resulting violation in interest rate parity generates an inflow of capital that the monetary authority needs to absorb by accumulating foreign reserves. We show that these interventions by the monetary authority are costly, and we derive a simple measure of these costs: they are proportional to deviations from the covered interest parity (CIP) condition and the amount of accumulated foreign reserves. Our framework can account for the recent experiences of safe-haven currencies and the sign of their observed deviations from CIP.">
       <div class="paper-figure"><img src="figures/fig_abbp.png" alt="CIP deviations vs nominal interest rate, pre-2007 vs post-2010"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/ABBP_restud.pdf">Exchange Rate Policies at the Zero Lower Bound</a></div>
@@ -409,7 +409,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="In this paper, we study the optimal design of financial safety nets under limited private credit. We ask when it is optimal to restrict ex ante the set of investors that can receive public liquidity support ex post. When the government can commit, the optimal safety net covers all investors. Introducing a wedge between identical investors is inefficient. Without commitment, an optimally designed financial safety net covers only a subset of investors. Compared to an economy where all investors are protected, this results in more liquid portfolios, better social insurance, and higher ex ante welfare. Our result can rationalize the prevalent limited coverage of safety nets, such as the lender of last resort facilities.">
       <div class="paper-figure"><img src="figures/fig_safety_nets.png" alt="Welfare across small, medium, and large protected sphere regimes"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Safety_Nets.pdf">Financial Safety Nets</a></div>
@@ -419,7 +419,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We study the optimal accumulation of international reserves in a quantitative model of sovereign default with long-term debt and a risk-free asset. Keeping higher levels of reserves provides a hedge against rollover risk, but this is costly because using reserves to pay down debt allows the government to reduce sovereign spreads. Our model, parameterized to mimic salient features of a typical emerging economy, can account for significant holdings of international reserves, and the larger accumulation of both debt and reserves in periods of low spreads and high income. We also show that income windfalls, improved policy frameworks, and an increase in the importance of rollover risk imply increases in the optimal holdings of reserves that are consistent with the upward trend in reserves in emerging economies. It is essential for our results that debt maturity exceeds one period.">
       <div class="paper-figure"><img src="figures/fig_reserves_AER.png" alt="Reserves vs likelihood of sudden stops"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/reserves_aer.pdf">International Reserves and Rollover Risk</a></div>
@@ -429,7 +429,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="Collateral constraints widely used in models of financial crises feature a pecuniary externality: Agents do not internalize how borrowing decisions taken in &quot;good times&quot; affect collateral prices during a crisis. We show that agents in a competitive equilibrium borrow more than a financial regulator who internalizes this externality. We also find, however, that under commitment the regulator's plans are time-inconsistent, and hence focus on studying optimal, time-consistent policy without commitment. This policy features a state-contingent macroprudential debt tax that is strictly positive at date t if a crisis has positive probability at t + 1. Quantitatively, this policy reduces sharply the frequency and magnitude of crises, removes fat tails from the distribution of returns, and increases social welfare. In contrast, constant debt taxes are ineffective and can be welfare-reducing, while an optimized &quot;macroprudential Taylor rule&quot; is effective but less so than the optimal policy.">
       <div class="paper-figure"><img src="figures/fig_time_consistent.png" alt="Crisis probability falling in the macroprudential debt tax"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Time_consistent_MPP.pdf">Optimal Time-Consistent Macroprudential Policy</a></div>
@@ -439,7 +439,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We develop a quantitative equilibrium model of financial crises to assess the interaction between ex post interventions in credit markets and the buildup of risk ex ante. During a systemic crisis, bailouts relax balance sheet constraints and mitigate the severity of the recession. Ex ante, the anticipation of such bailouts leads to an increase in risk-taking, making the economy more vulnerable to a financial crisis. We find that moral hazard effects are limited if bailouts are systemic and broad-based. If bailouts are idiosyncratic and targeted, however, this makes the economy significantly more exposed to financial crises.">
       <div class="paper-figure"><img src="figures/fig_bailouts.png" alt="Welfare effects: optimal policy, systemic bailouts, idiosyncratic bailouts"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/EfficientBailouts.pdf">Efficient Bailouts?</a></div>
@@ -449,7 +449,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="In January 2015, in the face of sustained capital inflows, the Swiss National Bank abandoned the floor for the Swiss Franc against the Euro, a decision which led to the appreciation of the Swiss Franc. The objective of this paper is to present a simple framework that helps to better understand the timing of this episode, which we label a &quot;reverse speculative attack.&quot; We model a central bank which wishes to maintain a peg, and responds to increases in demand for domestic currency by expanding its balance sheet. In contrast to the classic speculative attacks, which are triggered by the depletion of foreign assets, reverse attacks are triggered by the concern of future balance sheet losses. Our key result is that the interaction between the desire to maintain the peg and the concern about future losses can lead the central bank to first accumulate a large amount of reserves, and then to abandon the peg, just as we have observed in the Swiss case.">
       <div class="paper-figure"><img src="figures/fig_reverse_attack.png" alt="Swiss National Bank foreign reserves during the EUR/CHF floor"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Reverse_speculative_attacks_ABBP.pdf">Reverse Speculative Attacks</a></div>
@@ -459,7 +459,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="We study optimal macroprudential policy in a model in which unconventional shocks, in the form of news about future fundamentals and regime changes in world interest rates, interact with collateral constraints in driving the dynamics of financial crises. These shocks strengthen incentives to borrow in good times (i.e. when &quot;good news&quot; about future fundamentals coincide with a low-world-interest-rate regime), thereby increasing vulnerability to crises and enlarging the pecuniary externality due to the collateral constraints. Quantitatively, an optimal schedule of macroprudential debt taxes can lower the frequency and magnitude of financial crises, but the policy is complex because it features significant variation across interest-rate regimes and news realizations.">
       <div class="paper-figure"><img src="figures/fig_news_liquidity.png" alt="Ergodic distributions of bond holdings: decentralized vs social planner"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/Macroprudential_news_liquidity.pdf">Fundamentals News, Global Liquidity and Macroprudential Policy</a></div>
@@ -469,7 +469,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="The interaction between credit frictions, financial innovation, and a switch from optimistic to pessimistic beliefs played a central role in the 2008 financial crisis. This paper develops a quantitative general equilibrium framework in which this interaction drives the financial amplification mechanism to study the effects of macro-prudential policy. Financial innovation enhances the ability of agents to collateralize assets into debt, but the riskiness of this new regime can only be learned over time. Beliefs about transition probabilities across states with high and low ability to borrow change as agents learn from observed realizations of financial conditions. At the same time, the collateral constraint introduces a pecuniary externality, because agents fail to internalize the effect of their borrowing decisions on asset prices. Quantitative analysis shows that the effectiveness of macro-prudential policy depends on the government's information set, the tightness of credit constraints, and the pace at which optimism surges in the early stages of financial innovation.">
       <div class="paper-figure"><img src="figures/fig_neofisherian.png" alt="Land price boom-bust dynamics: decentralized vs social planners"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/neofisherian.pdf">Macro-prudential Policy in a Fisherian Model of Financial Innovation</a></div>
@@ -479,7 +479,7 @@
       </div>
     </div>
 
-    <div class="paper">
+    <div class="paper" data-abstract="Credit constraints linking debt to market-determined prices embody a systemic credit externality that drives a wedge between competitive and constrained socially optimal equilibria, inducing private agents to overborrow. This externality arises because private agents fail to internalize the financial amplification effects of carrying a large amount of debt when credit constraints bind. We conduct a quantitative analysis of this externality in a two-sector dynamic stochastic general equilibrium (DSGE) model of a small open economy calibrated to emerging markets. Raising the cost of borrowing during tranquil times restores constrained efficiency and significantly reduces the incidence and severity of financial crises.">
       <div class="paper-figure"><img src="figures/fig_overborrowing_AER.png" alt="Ergodic distribution of bond holdings: decentralized vs social planner"></div>
       <div class="paper-info">
         <div class="paper-title"><a href="research_publications/overborrowing.pdf">Overborrowing and Systemic Externalities in the Business Cycle</a></div>
@@ -507,19 +507,18 @@
 document.querySelectorAll('.paper[data-abstract]').forEach(function(paper) {
   var text = paper.getAttribute('data-abstract');
   if (!text.trim()) return;
-  var infoDiv = paper.querySelector('.paper-info');
   var linksDiv = paper.querySelector('.paper-links');
   var abstractDiv = document.createElement('div');
   abstractDiv.className = 'paper-abstract';
   abstractDiv.textContent = text;
-  infoDiv.appendChild(abstractDiv);
+  paper.appendChild(abstractDiv);
   var toggle = document.createElement('a');
   toggle.href = '#';
-  toggle.textContent = 'Abstract';
+  toggle.textContent = 'Abstract ∨';
   toggle.addEventListener('click', function(e) {
     e.preventDefault();
     var open = abstractDiv.classList.toggle('open');
-    toggle.textContent = open ? 'Abstract ▴' : 'Abstract';
+    toggle.textContent = open ? 'Abstract ▴' : 'Abstract ∨';
   });
   if (linksDiv) linksDiv.appendChild(toggle);
 });
