@@ -22,20 +22,20 @@
   .dropdown-content a { display: block; padding: 8px 18px; text-decoration: none; text-transform: none; letter-spacing: 0.02em; font-size: 14.3px; color: #555; font-weight: 400; }
   .dropdown-content a:hover { background: #f0eae6; color: #1b2a4a; }
   .container { max-width: 960px; margin: 0 auto; padding: 50px 40px 80px; }
-  .hero { display: flex; gap: 48px; align-items: flex-start; margin-bottom: 40px; }
-  .hero-photo { flex-shrink: 0; width: 200px; }
-  .hero-photo img { width: 200px; height: 250px; object-fit: cover; border-radius: 4px; display: block; }
-  .hero-text { flex: 1; }
-  .hero-text h2 { font-family: 'EB Garamond', serif; font-size: 26.4px; font-weight: 500; color: #1b2a4a; margin-bottom: 20px; padding-bottom: 8px; border-bottom: 1px solid #e0dbd4; }
-  .bio-text p { color: #444; margin-bottom: 18px; font-size: 16.5px; line-height: 1.8; }
-  .agenda-link { margin-top: 10px; font-family: 'EB Garamond', serif; font-size: 19.8px; }
-  .agenda-link a { color: #1d4e89; text-decoration: none; font-weight: 500; letter-spacing: 0.02em; }
-  .agenda-link a:hover { text-decoration: underline; }
+  .section { margin-bottom: 50px; }
+  .section h2 { font-family: 'EB Garamond', serif; font-size: 26.4px; font-weight: 500; color: #1b2a4a; margin-bottom: 24px; padding-bottom: 8px; border-bottom: 1px solid #e0dbd4; }
+  .bio-hero { display: flex; gap: 10px; align-items: flex-start; }
+  .bio-photo { flex-shrink: 0; width: 200px; }
+  .bio-photo img { width: 200px; height: 250px; object-fit: cover; border-radius: 4px; display: block; }
+  .bio-right { flex: 1; }
+  .top-links { font-family: 'EB Garamond', serif; font-size: 19.8px; margin-bottom: 24px; line-height: 2.2; }
+  .top-links a { color: #1d4e89; text-decoration: none; font-weight: 500; letter-spacing: 0.02em; }
+  .top-links a:hover { text-decoration: underline; }
+  .top-links .top-link-row { display: block; }
+  .bio-text p { color: #444; margin-bottom: 7px; line-height: 1.75; }
+  @media (max-width: 700px) { .bio-hero { flex-direction: column; gap: 24px; } .bio-photo { width: 160px; } .bio-photo img { width: 160px; height: 200px; } }
   footer { border-top: 1px solid #e0dbd4; text-align: center; padding: 24px 40px; font-size: 13.2px; color: #bbb; }
   @media (max-width: 700px) {
-    .hero { flex-direction: column; gap: 24px; }
-    .hero-photo { width: 160px; }
-    .hero-photo img { width: 160px; height: 200px; }
     .nav-links { gap: 16px; } .nav-links > a, .nav-links .dropdown > a { font-size: 15.84px; }
     .container { padding: 30px 20px 60px; }
   }
@@ -70,25 +70,26 @@
 </nav>
 
 <div class="container">
-
-  <div class="hero">
-    <div class="hero-photo">
+  <div class="bio-hero">
+    <div class="bio-photo">
       <img src="home/foto_fed_web.jpg" alt="Javier Bianchi">
     </div>
-    <div class="hero-text">
-      <h2>Short Bio</h2>
-      <div class="bio-text">
-        <p>Javier Bianchi is a Monetary Advisor at the Federal Reserve Bank of Minneapolis and Co-editor of the <em>Journal of International Economics</em>. His research areas are in international macroeconomics, macroeconomics, and macro-finance. His research is concerned with understanding the <strong style="font-weight:600; color:#1b2a4a;">origins of financial crises</strong> and the <strong style="font-weight:600; color:#1b2a4a;">preventive role of government policies</strong>. Specifically, his work has focused on macroprudential policy, international reserve accumulation, capital controls, bank runs, sovereign debt crises, monetary policy implementation, geoeconomics, tariffs, and exchange rates. Javier's research has been published in several journals including the <em>American Economic Review</em>, <em>Econometrica</em>, <em>Journal of Political Economy</em>, <em>Quarterly Journal of Economics</em>, and the <em>Review of Economic Studies</em>.</p>
+    <div class="bio-right">
 
-        <p>Javier received his Ph.D. in economics from the University of Maryland and an undergraduate degree from Universidad de Montevideo. Before joining the Federal Reserve Bank of Minneapolis, he was an assistant professor at the University of Wisconsin&ndash;Madison from 2012 to 2015. He is the recipient of the Excellence Award in Global Economic Affairs from the Kiel Institute for the World Economy, the Morosoli de Bronce in Economics, awarded by Fundaci&oacute;n L. Rubial, and the Ra&uacute;l Trajtenberg Uruguay National Prize in Economics.</p>
-      </div>
+  <div class="section">
+    <h2>Short Bio</h2>
+    <div class="bio-text">
+      <p>Javier Bianchi is a Monetary Advisor at the Federal Reserve Bank of Minneapolis and Co-editor of the <em>Journal of International Economics</em>. His research areas are in international macroeconomics, macroeconomics, and macro-finance. His research is concerned with <strong>understanding the origins of financial crises</strong> and the <strong>preventive role of government policies</strong>. Specifically, his work has focused on macroprudential policy, international reserve accumulation, capital controls, bank runs, sovereign debt crises, monetary policy implementation, geoeconomics, tariffs, and exchange rates. Javier's research has been published in several journals including the <em>American Economic Review</em>, <em>Econometrica</em>, <em>Journal of Political Economy</em>, <em>Quarterly Journal of Economics</em>, and the <em>Review of Economic Studies</em>.</p>
+
+      <p>Javier received his Ph.D. in economics from the University of Maryland and an undergraduate degree from Universidad de Montevideo. Before joining the Federal Reserve Bank of Minneapolis, he was an assistant professor at the University of Wisconsin&ndash;Madison from 2012 to 2015. He is the recipient of the Excellence Award in Global Economic Affairs from the Kiel Institute for the World Economy, the Morosoli de Bronce in Economics, awarded by Fundaci&oacute;n L. Rubial, and the Ra&uacute;l Trajtenberg Uruguay National Prize in Economics.</p>
+    </div>
+    <div style="margin-top: 20px;">
+      <a href="bio/ResearchAgenda_RED.pdf" target="_blank" style="font-family: 'EB Garamond', serif; font-size: 19.8px; color: #1d4e89; text-decoration: none; font-weight: 500; letter-spacing: 0.02em;">Summary of Research Agenda (May 2022)</a>
     </div>
   </div>
 
-  <div class="agenda-link">
-    <a href="bio/ResearchAgenda_RED.pdf" target="_blank">Summary of Research Agenda (May 2022)</a>
-  </div>
-
+    </div><!-- bio-right -->
+  </div><!-- bio-hero -->
 </div>
 
 <footer>&copy; 2026 Javier Bianchi</footer>
