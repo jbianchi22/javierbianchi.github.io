@@ -25,9 +25,8 @@
     transition: background 0.2s;
   }
   .cv-download a:hover { background: #163a6a; }
-  .cv-download a.email-btn { background: #1d4e89; color: #fff; }
-  .cv-download a.email-btn:hover { background: #163a6a; }
-  @media print { .cv-download { display: none; } }
+  .cv-email { text-align: center; font-family: 'Inter', sans-serif; font-size: 13px; color: #444; margin-top: 8px; user-select: all; cursor: text; }
+  @media print { .cv-download { display: none; } .cv-email { display: none; } }
   hr.header-rule { border: none; border-top: 1.5px solid #222; margin: 14px 0 28px; }
 
   /* Sections */
@@ -140,7 +139,8 @@
 <div class="cv-header">
   <div class="cv-updated">Last updated: June 2026</div>
   <div class="cv-name">Javier Bianchi</div>
-  <div class="cv-download"><a href="bio/CV.pdf" download>Download PDF</a><a href="mailto:Javier.i.Bianchi@gmail.com" class="email-btn">Javier.i.Bianchi@gmail.com</a></div>
+  <div class="cv-download"><a href="bio/CV.pdf" download>Download PDF</a></div>
+  <div class="cv-email">Javier.i.Bianchi@gmail.com</div>
 </div>
 <hr class="header-rule">
 
