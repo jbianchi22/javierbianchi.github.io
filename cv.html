@@ -11,13 +11,13 @@
   .page { max-width: 840px; margin: 0 auto; padding: 37px 48px 80px; }
 
   /* Header */
-  .cv-header { text-align: center; margin-bottom: 28px; }
-  .cv-name { font-size: 32px; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 14px; }
+  .cv-header { text-align: center; margin-bottom: 28px; display: flex; flex-direction: column; align-items: center; gap: 15px; }
+  .cv-name { font-size: 32px; font-weight: 600; letter-spacing: 0.05em; }
   .cv-meta { display: flex; justify-content: space-between; font-size: 14.5px; font-family: 'Inter', sans-serif; font-weight: 300; color: #444; line-height: 1.75; }
   .cv-meta a { color: #1d4e89; text-decoration: none; }
   .cv-meta a:hover { text-decoration: underline; }
   .cv-updated { color: #999; text-align: right; }
-  .cv-download { display: flex; justify-content: center; gap: 10px; margin-top: 29px; }
+  .cv-download { display: flex; justify-content: center; gap: 10px; }
   .cv-download a {
     display: inline-block; font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500;
     color: #fff; background: #1d4e89; text-decoration: none;
@@ -25,7 +25,7 @@
     transition: background 0.2s;
   }
   .cv-download a:hover { background: #163a6a; }
-  .cv-email { text-align: center; font-family: 'Inter', sans-serif; font-size: 13px; color: #444; margin-top: 8px; user-select: all; cursor: text; }
+  .cv-email { text-align: center; font-family: 'Inter', sans-serif; font-size: 13px; color: #444; user-select: all; cursor: text; }
   @media print { .cv-download { display: none; } .cv-email { display: none; } }
   hr.header-rule { border: none; border-top: 1.5px solid #222; margin: 14px 0 28px; }
 
