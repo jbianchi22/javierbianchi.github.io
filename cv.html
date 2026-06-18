@@ -17,7 +17,7 @@
   .cv-meta a { color: #1d4e89; text-decoration: none; }
   .cv-meta a:hover { text-decoration: underline; }
   .cv-updated { font-size: 13px; color: #999; text-align: right; }
-  .cv-download { text-align: center; margin-top: 14px; }
+  .cv-download { display: flex; justify-content: center; gap: 10px; margin-top: 14px; }
   .cv-download a {
     display: inline-block; font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500;
     color: #fff; background: #1d4e89; text-decoration: none;
@@ -25,6 +25,8 @@
     transition: background 0.2s;
   }
   .cv-download a:hover { background: #163a6a; }
+  .cv-download a.email-btn { background: #fff; color: #1d4e89; border: 1px solid #1d4e89; }
+  .cv-download a.email-btn:hover { background: #f0eae6; }
   @media print { .cv-download { display: none; } }
   hr.header-rule { border: none; border-top: 1.5px solid #222; margin: 14px 0 28px; }
 
@@ -139,10 +141,10 @@
   <div class="cv-updated">June 2026</div>
   <div class="cv-name">Javier Bianchi</div>
   <div class="cv-meta">
-    <div>Federal Reserve Bank of Minneapolis<br>90 Hennepin Avenue<br>Minneapolis, MN 55401</div>
+    <div>Federal Reserve Bank of Minneapolis</div>
     <div style="text-align:right;"><a href="mailto:Javier.i.Bianchi@gmail.com">Javier.i.Bianchi@gmail.com</a><br><a href="https://javierbianchi.com" target="_blank">javierbianchi.com</a><br><a href="https://scholar.google.com/citations?user=x926N0gAAAAJ&hl=en" target="_blank">Google Scholar Profile</a></div>
   </div>
-  <div class="cv-download"><a href="bio/CV.pdf" download>Download PDF</a></div>
+  <div class="cv-download"><a href="bio/CV.pdf" download>Download PDF</a><a href="mailto:Javier.i.Bianchi@gmail.com" class="email-btn">Email</a></div>
 </div>
 <hr class="header-rule">
 
