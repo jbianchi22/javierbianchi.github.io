@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en"     class="pb-page"  data-request-id="63a72f04-be59-45bf-8794-a326e6c71a97"  
+><head data-pb-dropzone="head"><meta name="pbContext" content=";requestedJournal:journal:jpe;ctype:string:Journal Content;issue:issue:10.1086/jpe.2021.129.issue-9;page:string:Table of Contents;csubtype:string:Regular Issue;wgroup:string:Publication Websites;journal:journal:jpe;pageGroup:string:Publication Pages;subPage:string:Current Table of Contents;website:website:uchicago"/>
+
+
+<title>Journal of Political Economy | Vol 129, No 9</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+
+
+
+
+
+
+
+
+<meta name="robots" content="noarchive"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <meta property="og:title" content="Journal of Political Economy | Vol 129, No 9"/>
+    
+
+
+        <meta property="og:type" content="Issue"/>
+    
+
+
+        <meta property="og:url" content="https://www.journals.uchicago.edu/doi/abs/10.1086/jpe.2021.129.issue-9"/>
+    
+
+
+
+        <meta property="og:site_name" content="Journal of Political Economy"/>
+    
+
+
+
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/wro/kjtg~product.css">
+
+
+
+    
+    
+                <link rel="stylesheet" href="/products/uchicago/releasedAssets/css/build-f9d55759e263dfa6a99a.css" media="all" id="build-style-sheet">
+                <script>
+                    function isIE() { //won't check for edge browser
+                        var ua = navigator.userAgent;
+                        /* MSIE used to detect old browsers and Trident used to newer ones*/
+                        var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+          
+                        return is_ie; 
+                    }
+                    
+                    if(isIE()) {
+                        document.write('<link rel="stylesheet" href="/products/uchicago/releasedAssets/css/build-style-fallback-9e1363d78448c1e7fd35.css" media="all" />')
+                        var buildCss = document.getElementById('build-style-sheet');
+                        buildCss.parentNode.removeChild(buildCss);
+                    }
+                </script>
+        <link rel="stylesheet" href="/products/uchicago/releasedAssets/css/print-f9d55759e263dfa6a99a.css"media="print">
+    
+        <script>
+        try {
+            document.documentElement.classList.add('js');
+        } catch (e) {
+        }
+    </script>
+    
+    
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="/pb-assets/styles/custom-1618856128657.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71497304-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-71497304-1');
+</script>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+            
+            
+            <link rel="canonical" href="https://www.journals.uchicago.edu/toc/jpe/current">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body class="pb-ui">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    if(false) {
+        document.getElementById("skipNavigationLink").onclick =function skipElement () {
+            var element = document.getElementById('');
+            if(element == null || element == undefined) {
+                element = document.getElementsByClassName('').item(0);
+            }
+            element.setAttribute('tabindex','0');
+            element.focus();
+
+        }
+
+    }
+
+</script>
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+        
+        <!----><div class="page__wrapper jpe">
+
+
+
+        
+        <a href="#afterNav-avs" class="sr-only-focusable">Skip to main content</a><div class="ad ad--top"><div class="container"></div></div><header data-db-parent-of="sb1" class="header"><div class="header__top"><div class="container"><div class="row header__row"><div class="header__logo">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="8108b7de-8cc7-481d-8e25-ed34f193f7af" class="hidden-sm hidden-xs">
+        
+
+
+
+        
+        <a href="/" title="University of Chicago Press Journals logo"><img alt="University of Chicago Press Journals logo" src="/pb-assets/images/ucp-banner-1578340427373.png"/></a>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-general-image" data-widget-id="8e2645fb-5f28-45d8-9389-f40232f9fb64" class="hidden-lg hidden-md">
+        
+
+
+
+        
+        <a href="/" title="University of Chicago Press Journals"><img alt="University of Chicago Press Journals" src="/pb-assets/images/header-logo-xs-1574835275577.png"/></a>
+
+        </div>
+    
+</div><div class="header__content"><div class="header__search-bar">
+
+
+
+        
+        <a href="#" title="search" data-db-target-for="sb1" class="quick-menu__item"><span class="header__search-bar__text">Search</span><i aria-hidden="true" class="block-icon icon-search"></i></a><div data-db-target-of="sb1" class="dropBlock__holder quick-search__dropBlock quickSearchFormContainer"><div class="container"><div class="quick-search"><div class="tab"><div class="quick-search__title">Search</div><div class="quick-search__searchbox"><ul role="tablist" class="rlist tab__nav dropblock--tab"><li role="presentation" class="tab__nav__item"><a href="#pane-c872d18e-356d-4d5d-b5f8-6e7bb6e523610" aria-controls="pane-0" role="tab" data-toggle="tab" title="This journal" id="pane-c872d18e-356d-4d5d-b5f8-6e7bb6e523610-con" aria-expanded="false" class="tab__nav__item__link">This journal</a></li><li role="presentation" class="tab__nav__item"><a href="#pane-c872d18e-356d-4d5d-b5f8-6e7bb6e523611" aria-controls="pane-1" role="tab" data-toggle="tab" title="Anywhere" id="pane-c872d18e-356d-4d5d-b5f8-6e7bb6e523611-con" aria-expanded="false" class="tab__nav__item__link">Anywhere</a></li></ul><div class="tab__content"><div id="pane-c872d18e-356d-4d5d-b5f8-6e7bb6e523610" aria-labelledby="pane-c872d18e-356d-4d5d-b5f8-6e7bb6e523610-con" role="tabpanel" class="tab__pane quick-search-pane__anywhere"><form action="/action/doSearch" name="thisJournalQuickSearch" method="get" class="quick-search__form"><fieldset><legend class="sr-only">Quick Search in Journals</legend><div class="quick-search__input group option-0 option-journal"><label for="AllFieldc872d18e-356d-4d5d-b5f8-6e7bb6e523610" class="sr-only">Search</label><input type="search" id="AllFieldc872d18e-356d-4d5d-b5f8-6e7bb6e523610" name="AllField" placeholder="Search" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" class="autocomplete"/><button type="submit" title="Search" class="btn quick-search__btn"><span class="sr-only">Search</span><i class="icon-search"></i></button></div><input type="hidden" name="SeriesKey" value="jpe"/></fieldset></form></div><div id="pane-c872d18e-356d-4d5d-b5f8-6e7bb6e523611" aria-labelledby="pane-c872d18e-356d-4d5d-b5f8-6e7bb6e523611-con" role="tabpanel" class="tab__pane quick-search-pane__anywhere"><form action="/action/doSearch" name="defaultQuickSearch" method="get" class="quick-search__form"><fieldset><legend class="sr-only">Quick Search anywhere</legend><div class="quick-search__input group option-1 "><label for="AllFieldc872d18e-356d-4d5d-b5f8-6e7bb6e523611" class="sr-only">Search</label><input type="search" id="AllFieldc872d18e-356d-4d5d-b5f8-6e7bb6e523611" name="AllField" placeholder="Search" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" class="autocomplete"/><button type="submit" title="Search" class="btn quick-search__btn"><span class="sr-only">Search</span><i class="icon-search"></i></button></div></fieldset></form></div></div></div>
+
+
+
+        
+        <a href="/search/advanced" class="quick-search__advanced-link">Advanced Search</a>
+</div></div></div></div>
+</div><div class="header__menu-bar">
+
+
+
+        
+        <ul class="rlist--inline"><li class="loggin-wrapper ml-lg-4 ml-md-2">
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+<div class="right-side">
+    <div class="base dropBlock loginBar">
+
+    
+            
+                <span class="welcome-label"></span>
+            
+            
+                    <a href="/action/showPreferences?menuTab=AccountInfo" id="indivLogin" class="indivLogin active user-login-bar__link" title="Javier Bianchi">
+                        
+<i class="icon-user"></i>
+<span class="profile-text">Javier Bianchi</span>
+                    </a>
+                    
+                
+            
+
+        
+    </div>
+
+</div>
+
+<div class="navigation-login-dropdown-container hidden">
+    <div class="navigation-login-dropdown">
+        
+
+<ul>
+    <li><a href="/action/showPreferences?menuTab=AccountInfo">Profile</a></li>
+    <li><a href="/action/doLogout">Logout</a></li>
+</ul>
+
+    </div>
+    <div class="navigation-login-background hidden-lg hidden-md overlay-fixed"></div>
+</div>
+
+
+
+</li></ul>
+</div></div></div></div></div><div class="header__institution-bar"><div class="container"></div></div><div class="header__menu bg--secondary text--primary">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="genericMenuWidget" class="jpe">
+        
+
+
+
+        
+        <div class="header__menu bg--secondary text--primary"><a href="#afterNav-5qu" class="sr-only-focusable">Skip main navigation</a><div class="main-nav"><a href="#main1" data-target="main1" data-toggle="nav"><i class="icon-bars"><span class="sr-only">menuDrawerCloseText</span></i><i class="icon-times"><span class="sr-only">menuDrawerOpenText</span></i></a><nav id="main1" role="navigation" data-ctrl-res="screen-md" class="drawer__nav container hidden-md hidden-sm hidden-xs"><a href="#" data-redirect-to="/" class="menu-header hidden-lg">Home</a><ul id="menubar" role="menubar" class="menubar rlist--inline"><li id="menu-item-main-menu1-0" role="menuitem" aria-haspopup="true" aria-label="Subscribe/renew" class="dropdown menu-parent"><a id="main1-1" href="#" data-toggle="dropdown" class="dropdown__toggle"><span>Subscribe/renew</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-lg"></i></a><ul aria-labelledby="main0-0" role="menu" aria-hidden="true" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/inst/rates"><span>Institutions</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="http://www.press.uchicago.edu/ucp/journals/subscribe/jpe.html" target="_blank"><span>Individual subscriptions</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="https://subfill.uchicago.edu/JournalPUBS/MySubs.aspx" target="_blank"><span>Individual renewals</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/lrf"><span>Recommend to your library</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="http://www.press.uchicago.edu/ucp/journals/issues/jpe.html" target="_blank"><span>Purchase back issues</span></a></li></ul></li><li id="menu-item-main-menu1-0" role="menuitem" aria-haspopup="true" aria-label="Browse issues" class="dropdown menu-parent"><a id="main1-1" href="#" data-toggle="dropdown" class="dropdown__toggle"><span>Browse issues</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-lg"></i></a><ul aria-labelledby="main1-1" role="menu" aria-hidden="true" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/loi/jpe"><span>All issues</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/toc/jpe/2017/125/1"><span>Online sample issue</span></a></li></ul></li><li id="menu-item-main-menu1-0" role="menuitem" aria-haspopup="true" aria-label="Forthcoming" class="dropdown menu-parent"><a id="main1-1" href="#" data-toggle="dropdown" class="dropdown__toggle"><span>Forthcoming</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-lg"></i></a><ul aria-labelledby="main2-2" role="menu" aria-hidden="true" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/toc/jpe/0/0"><span>Ahead of Print</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/toc/jpe/0/ja"><span>Just Accepted</span></a></li></ul></li><li id="menu-item-main-menu1-0" role="menuitem" aria-haspopup="true" aria-label="Contributors" class="dropdown menu-parent"><a id="main1-1" href="#" data-toggle="dropdown" class="dropdown__toggle"><span>Contributors</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-lg"></i></a><ul aria-labelledby="main3-3" role="menu" aria-hidden="true" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="https://www.editorialmanager.com/jpolec/" target="_blank"><span>Submit manuscript</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/instruct"><span>Instructions for authors</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/turnaround-times"><span>Information on turnaround times</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="https://www.editorialmanager.com/jpolec/" target="_blank"><span>Submit referee report</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/datapolicy"><span>Data policy</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/prep-gen"><span>Manuscript preparation</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/backcover"><span>Call for back cover quotes</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/jrnl_rights"><span>Authors' rights</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/open"><span>Open access at Chicago</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/permissions"><span>Obtaining permissions</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/author-resources"><span>Resources for authors</span></a></li></ul></li><li id="menu-item-main-menu1-0" role="menuitem" aria-haspopup="true" aria-label="About" class="dropdown menu-parent"><a id="main1-1" href="#" data-toggle="dropdown" class="dropdown__toggle"><span>About</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-lg"></i></a><ul aria-labelledby="main4-4" role="menu" aria-hidden="true" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/about"><span>About <em>JPE</em></span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/board"><span>Editorial Board</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/board#contact"><span>Contact the editorial office</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/ethics"><span>Ethics</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/past-editors"><span>Past Editors</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/lucas-prize"><span>The Robert E. Lucas Jr. Prize</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/abstract"><span>Abstracting and indexing</span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><a href="/journals/jpe/advertise"><span>Advertise in <em>JPE</em></span></a></li><li role="menuitem" tabindex="-1" aria-label="link 1" class="menu-item"><ul id="social-links" aria-hidden="true" class="rlist--inline pl-lg-3"><li><a href='https://twitter.com/JPolEcon' target='_blank' class='p-md-1 p-lg-1 pr-sm-2 pr-xs-2'><img src='/pb-assets/images/twitter-28x28-1597429052280.png' alt='Twitter icon'/></a></li><li><a href='http://www.facebook.com/Journal.of.Political.Economy' target='_blank' class='p-md-1 p-lg-1 pr-sm-2 pr-xs-2'><img src='/pb-assets/images/facebook-28x28-1597429433970.png' alt='Facebook icon'/></a></li><li><a href='/action/showFeed?type=etoc&feed=rss&jc=jpe' target='_blank' class='p-md-1 p-lg-1 pr-sm-2 pr-xs-2'><img src='/pb-assets/images/rss-28x28-1597429052000.png' alt='RSS feed icon'/></a></li></ul></li></ul></li></ul></nav></div></div><span id="afterNav-5qu" tabindex="-1"></span>
+
+        </div>
+    
+</div><span id="afterNav-avs"></span></header>
+
+
+
+
+        
+        <!----><div class="page__wrapper jpe">
+
+
+
+        
+        <main class="content">
+
+
+
+        
+        
+
+
+
+        
+        <div class="teaser teaser--main teaser--loi bg--primary"><div class="container"><div class="row teaser__content"><div class="col-sm-12 col-md-8 col-lg-9"><h1 class="teaser__group-title">
+
+
+
+        
+        <a href="/toc/jpe/current">Journal of Political Economy</a>
+
+</h1><div class="teaser__row"><h3 class="teaser__sub-title"> 
+
+
+
+
+        
+        
+</h3></div><div style="max-width: 70%;" class="teaser__row">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="general-html-asset" data-widget-id="4894b91a-a0d8-43f6-b842-fc3c2318cd29" class="jumbotron-journal-info">
+        
+
+
+
+        
+        <div class="teaser__item" style="font-weight:400"><b>Lead Editor:</b> Magne Mogstad
+</div>
+<div class="teaser__item" style="font-weight:400"><b>Editors:</b> Andrew Atkeson, Melissa Dell, Emir Kamenica, Greg Kaplan, John List, Lance Lochner, Magne Mogstad, Esteban Rossi-Hansberg, Azeem Shaikh, Chad Syverson
+</div>
+
+
+        </div>
+    
+</div><div style="bottom: 0px;" class="teaser__journal-logo mb-0">
+
+
+
+        
+        
+</div></div></div></div></div>
+
+
+
+
+        
+        <div class="journal-publication-cover-tablet">
+
+
+
+        
+        <div class="publication-cover journal-publication-cover">
+
+
+
+        
+        <div class="publication-cover__content"><ul class="rlist loc"><li class="grid-item cover-image"><div class="cover-image__image"><a href="/toc/jpe/current"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-9/jpe.2021.129.issue-9/20210810-01/jpe.2021.129.issue-9.cover.gif" alt="Issue Cover Image" title="Journal of Political Economy"></a></div><div class="cover-image__details"><div class="journal-meta"><div class="citation-line"> 
+Volume 129, Number 9</div><div class="cover-date">September 2021</div></div></div></li></ul></div>
+</div>
+</div>
+<div class="container"><section class="row"><div class="col-lg-9">
+
+
+
+        
+        <div class="tabs--top-content toc__no-form-actions swipe-with-arrows"><div data-ctrl-res="screen-sm" class="tab"><nav><ul data-mobile-toggle="alternativeResponsiveOptions" role="tablist" class="tab__nav"><li role="presentation" class="active"><a role="tab" href="/toc/jpe/current"><span>Current Issue</span></a></li><li role="presentation"><a role="tab" href="/toc/jpe/0/0" class="external"><span>Ahead of Print</span></a></li><li role="presentation"><a role="tab" href="/toc/jpe/0/ja" class="external"><span>Just Accepted</span></a></li></ul></nav></div></div>
+
+
+
+
+        
+        <div data-see-more-text="See all authors" data-see-less-text="See fewer authors" class="toc-js__translation"><!--modified:1630439024497--><form name="frmSearch" id="frmSearch" action="" method="post"><!--totalCount10--><div class="form__actions hidden-xs"><div class="row"><div class="col-xs-4 col-sm-3"><label title="Select All" class="checkbox--primary form__actions__all"><input type="checkbox" /><span class="label-txt">Select All</span></label></div><div class="col-xs-8 col-sm-9 text-right"><label><span class="form__actions__dropdown">For selected items:</span><span class="form__actions__list__wrapper"><select name="bulkActions" id="actionsList" class="form__actions__list"><option id="default" selected="">Please Select</option><option id="addToMarked" value="/personalize/addFavoritePublication">Add to Favorites
+                                    </option><option id="emailArt" value="/action/showMailPage">Email</option><option id="download" value="/action/showCitFormats">Download citation</option><option id="track" value="/action/addCitationAlert">Track citation</option></select></span></label></div></div></div><div class="form__body"><div class="table-of-content"><div class="publication-body"><ul class="rlist table-of-content__section-body"><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock-open access-icon--open"></i><span>Free</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/716772" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/716772" title="Front Matter">Front Matter</a></h5><div class="issue-item__pages"></div><div class="issue-item__tale"><div class="hasFirstPage"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/716772"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li></ul></div></div><div class="issue-item__first-page"><a href="/doi/abs/10.1086/716772" title="First Page" class="issue-item__btn btn btn--pale"><i aria-hidden="true" class="icon-first-page"></i><span>First page</span></a></div></div></div></div></div></li><h2><h4 class="toc__heading section__header to-section simple" id="d513e13">Articles</h4></h2><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/714994" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/714994" title="Discrimination, Managers, and Firm Performance: Evidence from “Aryanizations” in Nazi Germany">Discrimination, Managers, and Firm Performance: Evidence from “Aryanizations” in Nazi Germany</a></h5><div class="issue-item__loa"><ul class="rlist--inline loa comma" aria-label="author"><li><span class="hlFld-ContribAuthor">Kilian Huber<span>, </span></span></li><li><span class="hlFld-ContribAuthor">Volker Lindenthal<span>, and </span></span></li><li><span class="hlFld-ContribAuthor">Fabian Waldinger</span></li></ul></div><div class="issue-item__pages">pp. 2455–2503</div><div class="issue-item__tale"><div class="hasAbs"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/714994"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/714994"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li><li><a href="/doi/suppl/10.1086/714994" class="issue-item__btn btn btn--pale" title="Supplemental Materials"><i aria-hidden="true" class="icon-paperclip"></i><span class="issue-item__btn__label">Supplemental Material</span></a></li></ul></div></div><div class="issue-item__abstract"><div class="accordion"><a href="#" title="show Abstract" class="accordion__control" aria-expanded="false"><span>Abstract</span><i aira-hidden="true" class="icon-chevron-down"></i></a><div class="accordion__content" style="display: none;"><p><p>Large-scale increases in discrimination can lead to dismissals of highly qualified managers. We investigate how expulsions of senior Jewish managers, due to rising discrimination in Nazi Germany, affected large corporations. Firms that lost Jewish managers experienced persistent reductions in stock prices, dividends, and returns on assets. Aggregate market value fell by roughly 1.8% of German GNP because of the expulsions. Managers who served as key connectors to other firms and managers who were highly educated were particularly important for firm performance. The findings imply that individual managers drive firm performance. Discrimination against qualified business leaders causes first-order economic losses.</p></p></div></div></div></div></div></div></div></li><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/714992" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/714992" title="Socioeconomic Status and Inequalities in Children’s IQ and Economic Preferences">Socioeconomic Status and Inequalities in Children’s IQ and Economic Preferences</a></h5><div class="issue-item__loa"><ul class="rlist--inline loa comma" aria-label="author"><li><span class="hlFld-ContribAuthor">Armin Falk<span>, </span></span></li><li><span class="hlFld-ContribAuthor">Fabian Kosse<span>, </span></span></li><li><span class="hlFld-ContribAuthor">Pia Pinger<span>, </span></span></li><li><span class="hlFld-ContribAuthor">Hannah Schildberg-Hörisch<span>, and </span></span></li><li><span class="hlFld-ContribAuthor">Thomas Deckers</span></li></ul></div><div class="issue-item__pages">pp. 2504–2545</div><div class="issue-item__tale"><div class="hasAbs"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/714992"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/714992"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li><li><a href="/doi/suppl/10.1086/714992" class="issue-item__btn btn btn--pale" title="Supplemental Materials"><i aria-hidden="true" class="icon-paperclip"></i><span class="issue-item__btn__label">Supplemental Material</span></a></li></ul></div></div><div class="issue-item__abstract"><div class="accordion"><a href="#" title="show Abstract" class="accordion__control" aria-expanded="false"><span>Abstract</span><i aira-hidden="true" class="icon-chevron-down"></i></a><div class="accordion__content" style="display: none;"><p><p>This paper explores inequalities in IQ and economic preferences between children from families of high and low socioeconomic status (SES). We document that children from high-SES families are more intelligent, patient, and altruistic as well as less risk seeking. To understand the underlying mechanisms, we propose a framework of how SES, parental investments, as well as maternal IQ and preferences influence a child’s IQ and preferences. Our results indicate that disparities in the level of parental investments hold substantial importance. In light of the importance of IQ and preferences for behaviors and outcomes, our findings offer an explanation for social immobility.</p></p></div></div></div></div></div></div></div></li><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/714993" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/714993" title="Feasible Joint Posterior Beliefs">Feasible Joint Posterior Beliefs</a></h5><div class="issue-item__loa"><ul class="rlist--inline loa comma" aria-label="author"><li><span class="hlFld-ContribAuthor">Itai Arieli<span>, </span></span></li><li><span class="hlFld-ContribAuthor">Yakov Babichenko<span>, </span></span></li><li><span class="hlFld-ContribAuthor">Fedor Sandomirskiy<span>, and </span></span></li><li><span class="hlFld-ContribAuthor">Omer Tamuz</span></li></ul></div><div class="issue-item__pages">pp. 2546–2594</div><div class="issue-item__tale"><div class="hasAbs"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/714993"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/714993"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li></ul></div></div><div class="issue-item__abstract"><div class="accordion"><a href="#" title="show Abstract" class="accordion__control" aria-expanded="false"><span>Abstract</span><i aira-hidden="true" class="icon-chevron-down"></i></a><div class="accordion__content" style="display: none;"><p><p>We study the set of possible joint posterior belief distributions of a group of agents who share a common prior regarding a binary state and who observe some information structure. For two agents, we introduce a quantitative version of Aumann’s agreement theorem and show that it is equivalent to a characterization of feasible distributions from a 1995 work by Dawid and colleagues. For any number of agents, we characterize feasible distributions in terms of a “no-trade” condition. We use these characterizations to study information structures with independent posteriors. We also study persuasion problems with multiple receivers, exploring the extreme feasible distributions.</p></p></div></div></div></div></div></div></div></li><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/715023" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/715023" title="Communication and Community Enforcement">Communication and Community Enforcement</a></h5><div class="issue-item__loa"><ul class="rlist--inline loa comma" aria-label="author"><li><span class="hlFld-ContribAuthor">Takuo Sugaya<span> and </span></span></li><li><span class="hlFld-ContribAuthor">Alexander Wolitzky</span></li></ul></div><div class="issue-item__pages">pp. 2595–2628</div><div class="issue-item__tale"><div class="hasAbs"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/715023"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/715023"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li><li><a href="/doi/suppl/10.1086/715023" class="issue-item__btn btn btn--pale" title="Supplemental Materials"><i aria-hidden="true" class="icon-paperclip"></i><span class="issue-item__btn__label">Supplemental Material</span></a></li></ul></div></div><div class="issue-item__abstract"><div class="accordion"><a href="#" title="show Abstract" class="accordion__control" aria-expanded="false"><span>Abstract</span><i aira-hidden="true" class="icon-chevron-down"></i></a><div class="accordion__content" style="display: none;"><p><p>We study the repeated prisoner’s dilemma with random matching, a canonical model of community enforcement with decentralized information. We assume that (1) with small probability, each player is a “bad type” who never cooperates, (2) players observe and remember their partners’ identities, and (3) each player interacts with others frequently but meets any particular partner infrequently. We show that these assumptions preclude cooperation in the absence of explicit communication but that introducing within-match cheap talk communication restores cooperation. Thus, communication is essential for community enforcement.</p></p></div></div></div></div></div></div></div></li><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/715022" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/715022" title="Social Insurance, Information Revelation, and Lack of Commitment">Social Insurance, Information Revelation, and Lack of Commitment</a></h5><div class="issue-item__loa"><ul class="rlist--inline loa comma" aria-label="author"><li><span class="hlFld-ContribAuthor">Mikhail Golosov<span> and </span></span></li><li><span class="hlFld-ContribAuthor">Luigi Iovino</span></li></ul></div><div class="issue-item__pages">pp. 2629–2665</div><div class="issue-item__tale"><div class="hasAbs"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/715022"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/715022"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li><li><a href="/doi/suppl/10.1086/715022" class="issue-item__btn btn btn--pale" title="Supplemental Materials"><i aria-hidden="true" class="icon-paperclip"></i><span class="issue-item__btn__label">Supplemental Material</span></a></li></ul></div></div><div class="issue-item__abstract"><div class="accordion"><a href="#" title="show Abstract" class="accordion__control" aria-expanded="false"><span>Abstract</span><i aira-hidden="true" class="icon-chevron-down"></i></a><div class="accordion__content" style="display: none;"><p><p>We study optimal provision of unemployment insurance in a model where agents privately observe arrival of job opportunities and government’s ability to commit is imperfect. Imperfect commitment implies that full information revelation is generally suboptimal. Social welfare is convex in the probability with which agents reveal their private information. In the optimum, each agent is provided with incentives to either fully reveal his private information or not reveal it at all. The optimal contract can be decentralized by a joint system of unemployment and disability benefits in a way that resembles how these systems are used in practice.</p></p></div></div></div></div></div></div></div></li><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/715021" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/715021" title="Systematic Bias in the Progress of Research">Systematic Bias in the Progress of Research</a></h5><div class="issue-item__loa"><ul class="rlist--inline loa comma" aria-label="author"><li><span class="hlFld-ContribAuthor">Amir Rubin<span> and </span></span></li><li><span class="hlFld-ContribAuthor">Eran Rubin</span></li></ul></div><div class="issue-item__pages">pp. 2666–2719</div><div class="issue-item__tale"><div class="hasAbs"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/715021"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/715021"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li><li><a href="/doi/suppl/10.1086/715021" class="issue-item__btn btn btn--pale" title="Supplemental Materials"><i aria-hidden="true" class="icon-paperclip"></i><span class="issue-item__btn__label">Supplemental Material</span></a></li></ul></div></div><div class="issue-item__abstract"><div class="accordion"><a href="#" title="show Abstract" class="accordion__control" aria-expanded="false"><span>Abstract</span><i aira-hidden="true" class="icon-chevron-down"></i></a><div class="accordion__content" style="display: none;"><p><p>We analyze the extent to which citing practices may be driven by strategic considerations. The discontinuation of the <i>Journal of Business</i> (JB) in 2006 for extraneous reasons serves as an exogenous shock for analyzing strategic citing behavior. Using a difference-in-differences analysis, we find that articles published in JB before 2006 experienced a relative reduction in citations of approximately 20% after 2006. Since the discontinuation of JB is unrelated to the scientific contributions of its articles, the results imply that the referencing of articles is systematically affected by strategic considerations, which hinders scientific progress.</p></p></div></div></div></div></div></div></div></li><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock-open access-icon--open"></i><span>Free</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/716447" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/716447" title="JPE Turnaround Times, Previous Two Years">JPE Turnaround Times, Previous Two Years</a></h5><div class="issue-item__pages">p. 2720</div><div class="issue-item__tale"><div class="hasFirstPage"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/716447"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/716447"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li></ul></div></div><div class="issue-item__first-page"><a href="/doi/abs/10.1086/716447" title="First Page" class="issue-item__btn btn btn--pale"><i aria-hidden="true" class="icon-first-page"></i><span>First page</span></a></div></div></div></div></div></li><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock-open access-icon--open"></i><span>Free</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/716773" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/716773" title="Recent Referees">Recent Referees</a></h5><div class="issue-item__pages"></div><div class="issue-item__tale"><div class="hasFirstPage"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/716773"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/716773"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li></ul></div></div><div class="issue-item__first-page"><a href="/doi/abs/10.1086/716773" title="First Page" class="issue-item__btn btn btn--pale"><i aria-hidden="true" class="icon-first-page"></i><span>First page</span></a></div></div></div></div></div></li><li class="form-action-item"><div class="form-action-item__top"><span class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock-open access-icon--open"></i><span>Free</span></span></div><div class="form-action-item__wrapper"><div class="form__item__prefix form-action-item__prefix hidden-xs hidden-sm"><label class="checkbox--primary"><input type="checkbox" value="10.1086/716774" name="doi" aria-describedby="item1" /><span class="label-txt"></span></label></div><div class="form-action-item__body"><div class="issue-item"><h5 class="issue-item__title"><a href="/doi/10.1086/716774" title="Back Cover">Back Cover</a></h5><div class="issue-item__pages"></div><div class="issue-item__tale"><div class="hasFirstPage"><div class="issue-item__row"><ul class="rlist issue-item__options"><li><a title="Full Text" class="issue-item__btn btn btn--pale" href="/doi/full/10.1086/716774"><i aria-hidden="true" class="icon-align-justify"></i><span class="issue-item__btn__label">Full Text</span></a></li><li><a title="PDF" class="issue-item__btn btn btn--pale" href="/doi/pdf/10.1086/716774"><i class="icon icon-file-pdf"></i><span class="issue-item__btn__label">PDF</span></a></li></ul></div></div><div class="issue-item__first-page"><a href="/doi/abs/10.1086/716774" title="First Page" class="issue-item__btn btn btn--pale"><i aria-hidden="true" class="icon-first-page"></i><span>First page</span></a></div></div></div></div></div></li></ul></div></div></div><input name="redirectUri" type="hidden" value="/action/showPreferences?menuTab=favorites" /></form></div>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3Tabs" data-widget-id="32bbd29e-6bdd-4048-8eda-c5448550051d" class="tabs--top-content swipe-with-arrows">
+        
+
+
+
+        
+        <div data-ctrl-res="screen-sm" class="tab"><nav><ul data-mobile-toggle="alternativeResponsiveOptions" role="tablist" class="tab__nav"><li role="presentation" class="tab__nav__item"><a href="#pane-32bbd29e-6bdd-4048-8eda-c5448550051d01" aria-controls="#pane-32bbd29e-6bdd-4048-8eda-c5448550051d01" role="tab" data-toggle="tab" id="pane-32bbd29e-6bdd-4048-8eda-c5448550051d01con" aria-selected="true" class="tab__nav__item__link active"><span>Most Read</span></a></li><li role="presentation" class="tab__nav__item"><a href="#pane-32bbd29e-6bdd-4048-8eda-c5448550051d11" aria-controls="#pane-32bbd29e-6bdd-4048-8eda-c5448550051d11" role="tab" data-toggle="tab" id="pane-32bbd29e-6bdd-4048-8eda-c5448550051d11con" aria-selected="false" class="tab__nav__item__link"><span>Most cited</span></a></li></ul></nav><div class="tab__content"><div id="pane-32bbd29e-6bdd-4048-8eda-c5448550051d01" aria-labelledby="pane-32bbd29e-6bdd-4048-8eda-c5448550051d01con" role="tabpanel" class="tab__pane active">
+
+
+
+        
+        <div id="rich-text-a87830d9-50fb-45ce-bb7b-663dd456c312" class="pb-rich-text" >
+        <p><em>Of all published articles, the following were the most read within the past 12 months</em>.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="topContentActionWidget" data-widget-id="95185355-57c4-46fb-a26f-dc70e6f4c0ef" class="grid-md-2">
+        
+
+
+
+        
+        <div class="top-content"><ul class="rlist lot"><li class="grid-item"><div class="teaser"><div class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock-open access-icon--open"></i><span>Free</span></div><a href="/doi/10.1086/711915" title="The Effects of Fluoride in Drinking Water"><h5 class="teaser__title">The Effects of Fluoride in Drinking Water</h5></a><div class="teaser__authors"><ul title="list of authors" class="rlist--inline loa mobile-authors"><li><span class="hlFld-ContribAuthor"><a href="/author/Aggeborn%2C+Linuz" title="Linuz Aggeborn">Linuz Aggeborn</a></span><span> and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/%C3%96hman%2C+Mattias" title="Mattias Öhman">Mattias Öhman</a></span></li></ul><div class="author__notes"></div></div><div class="teaser__meta"><span class="teaser__citation-line"><a href=/toc/jpe/2021/129/2>Vol. 129, No. 2
+            </a></span><span class="teaser__date"><time datetime="13 Jan 2021">13 Jan 2021</time></span></div></div></li><li class="grid-item"><div class="teaser"><div class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock-open access-icon--open"></i><span>Free</span></div><a href="/doi/10.1086/701789" title="The Neolithic Agricultural Revolution and the Origins of Private Property"><h5 class="teaser__title">The Neolithic Agricultural Revolution and the Origins of Private Property</h5></a><div class="teaser__authors"><ul title="list of authors" class="rlist--inline loa mobile-authors"><li><span class="hlFld-ContribAuthor"><a href="/author/Bowles%2C+Samuel" title="Samuel Bowles">Samuel Bowles</a></span><span> and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Choi%2C+Jung-Kyoo" title="Jung-Kyoo Choi">Jung-Kyoo Choi</a></span></li></ul><div class="author__notes"></div></div><div class="teaser__meta"><span class="teaser__citation-line"><a href=/toc/jpe/2019/127/5>Vol. 127, No. 5
+            </a></span><span class="teaser__date"><time datetime="31 Jul 2019">31 Jul 2019</time></span></div></div></li><li class="grid-item"><div class="teaser"><div class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></div><a href="/doi/10.1086/705716" title="Robots and Jobs: Evidence from US Labor Markets"><h5 class="teaser__title">Robots and Jobs: Evidence from US Labor Markets</h5></a><div class="teaser__authors"><ul title="list of authors" class="rlist--inline loa mobile-authors"><li><span class="hlFld-ContribAuthor"><a href="/author/Acemoglu%2C+Daron" title="Daron Acemoglu">Daron Acemoglu</a></span><span> and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Restrepo%2C+Pascual" title="Pascual Restrepo">Pascual Restrepo</a></span></li></ul><div class="author__notes"></div></div><div class="teaser__meta"><span class="teaser__citation-line"><a href=/toc/jpe/2020/128/6>Vol. 128, No. 6
+            </a></span><span class="teaser__date"><time datetime="22 Apr 2020">22 Apr 2020</time></span></div></div></li><li class="grid-item"><div class="teaser"><div class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></div><a href="/doi/10.1086/700936" title="Democracy Does Cause Growth"><h5 class="teaser__title">Democracy Does Cause Growth</h5></a><div class="teaser__authors"><ul title="list of authors" class="rlist--inline loa mobile-authors"><li><span class="hlFld-ContribAuthor"><a href="/author/Acemoglu%2C+Daron" title="Daron Acemoglu">Daron Acemoglu</a></span><span>, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Naidu%2C+Suresh" title="Suresh Naidu">Suresh Naidu</a></span><span>, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Restrepo%2C+Pascual" title="Pascual Restrepo">Pascual Restrepo</a></span><span>, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Robinson%2C+James+A" title="James A. Robinson">James A. Robinson</a></span></li></ul><div class="author__notes"></div></div><div class="teaser__meta"><span class="teaser__citation-line"><a href=/toc/jpe/2019/127/1>Vol. 127, No. 1
+            </a></span><span class="teaser__date"><time datetime="14 Jan 2019">14 Jan 2019</time></span></div></div></li></ul></div>
+
+        </div>
+    
+</div><div id="pane-32bbd29e-6bdd-4048-8eda-c5448550051d11" aria-labelledby="pane-32bbd29e-6bdd-4048-8eda-c5448550051d11con" role="tabpanel" class="tab__pane">
+
+
+
+        
+        <div id="rich-text-ba0515f0-d0b5-447f-8eaf-ad2506fabac4" class="pb-rich-text" >
+        <div class="mt-3"><em>Of all published articles, the following were the most cited within the past 12 months as recorded by Crossref.</em></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="topContentActionWidget" data-widget-id="770d156a-af20-49f9-a0af-2fead6e92181" class="grid-md-2">
+        
+
+
+
+        
+        <div class="top-content"><ul class="rlist lot"><li class="grid-item"><div class="teaser"><div class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></div><a href="/doi/10.1086/260062" title="The Pricing of Options and Corporate Liabilities"><h5 class="teaser__title">The Pricing of Options and Corporate Liabilities</h5></a><div class="teaser__authors"><ul title="list of authors" class="rlist--inline loa mobile-authors"><li><span class="hlFld-ContribAuthor"><a href="/author/Black%2C+Fischer" title="Fischer Black">Fischer Black</a></span><span>, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Scholes%2C+Myron" title="Myron Scholes">Myron Scholes</a></span></li></ul><div class="author__notes"></div></div><div class="teaser__meta"><span class="teaser__citation-line"><a href=/toc/jpe/1973/81/3>Vol. 81, No. 3
+            </a></span><span class="teaser__date"><time datetime="22 Oct 2015">22 Oct 2015</time></span></div></div></li><li class="grid-item"><div class="teaser"><div class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></div><a href="/doi/10.1086/261725" title="Endogenous Technological Change"><h5 class="teaser__title">Endogenous Technological Change</h5></a><div class="teaser__authors"><ul title="list of authors" class="rlist--inline loa mobile-authors"><li><span class="hlFld-ContribAuthor"><a href="/author/Romer%2C+Paul+M" title="Paul M. Romer">Paul M. Romer</a></span></li></ul><div class="author__notes"></div></div><div class="teaser__meta"><span class="teaser__citation-line"><a href=/toc/jpe/1990/98/5%2C+Part+2>Vol. 98, No. 5, Part 2
+            </a></span><span class="teaser__date"><time datetime="22 Oct 2015">22 Oct 2015</time></span></div></div></li><li class="grid-item"><div class="teaser"><div class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></div><a href="/doi/10.1086/250042" title="Law and Finance"><h5 class="teaser__title">Law and Finance</h5></a><div class="teaser__authors"><ul title="list of authors" class="rlist--inline loa mobile-authors"><li><span class="hlFld-ContribAuthor"><a href="/author/la+Porta%2C+Rafael" title="Rafael La Porta">Rafael La Porta</a></span><span>, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Lopez-de-Silanes%2C+Florencio" title="Florencio Lopez‐de‐Silanes">Florencio Lopez‐de‐Silanes</a></span><span>, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Shleifer%2C+Andrei" title="Andrei Shleifer">Andrei Shleifer</a></span><span>, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Vishny%2C+Robert+W" title="Robert W. Vishny">Robert W. Vishny</a></span></li></ul><div class="author__notes"></div></div><div class="teaser__meta"><span class="teaser__citation-line"><a href=/toc/jpe/1998/106/6>Vol. 106, No. 6
+            </a></span><span class="teaser__date"><time datetime="19 Jul 2015">19 Jul 2015</time></span></div></div></li><li class="grid-item"><div class="teaser"><div class="meta__access"><i aria-hidden="true" class="citation__acess__icon icon-lock access-icon--no-access"></i><span>No Access</span></div><a href="/doi/10.1086/260061" title="Risk, Return, and Equilibrium: Empirical Tests"><h5 class="teaser__title">Risk, Return, and Equilibrium: Empirical Tests</h5></a><div class="teaser__authors"><ul title="list of authors" class="rlist--inline loa mobile-authors"><li><span class="hlFld-ContribAuthor"><a href="/author/Fama%2C+Eugene+F" title="Eugene F. Fama">Eugene F. Fama</a></span><span>, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/MacBeth%2C+James+D" title="James D. MacBeth">James D. MacBeth</a></span></li></ul><div class="author__notes"></div></div><div class="teaser__meta"><span class="teaser__citation-line"><a href=/toc/jpe/1973/81/3>Vol. 81, No. 3
+            </a></span><span class="teaser__date"><time datetime="22 Oct 2015">22 Oct 2015</time></span></div></div></li></ul></div>
+
+        </div>
+    
+</div></div></div>
+
+        </div>
+    
+
+</div><div class="col-lg-3 px-lg-2">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="6a205b88-05a8-41b8-82ed-81a4f6023862" class="right-rail-layout">
+        
+
+
+
+        
+        <div class="publication-cover journal-publication-cover"><div class="publication-cover__content"><ul class="rlist loc"><li class="grid-item cover-image"><div class="cover-image__image"><a href="/toc/jpe/current"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-9/jpe.2021.129.issue-9/20210810-01/jpe.2021.129.issue-9.cover.gif" alt="Issue Cover Image"></a></div><div class="cover-image__details"><div class="journal-meta"><div class="citation-line"> 
+Volume 129, Number 9</div><div class="cover-date">September 2021</div></div></div></li></ul></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="1f20e9b6-701d-4de3-8b90-26a7a577e68d" class="right-rail-layout">
+        
+
+
+
+        
+        <div class="mb-3">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="general-html-asset" data-widget-id="380ab0af-14bf-43f8-bd74-df027e7f17ed" class="mt-2">
+        
+
+
+
+        
+        
+
+<br />
+
+<a href="/action/doUpdateAlertSettings?action=addJournal&journalCode=jpe&referrer=https://www.journals.uchicago.edu/toc/jpe/current"><img alt="Sign up for new issue alerts" src="/pb-assets/journalpromos/files/etoc-1596132677487.png"></a>
+
+
+        </div>
+    
+
+
+
+
+        
+        <section class="branded-box">
+
+
+
+        
+        <h4 class="branded-box__header bg--secondary">Download the E-book</h4>
+<div class="branded-box__body bg--primary"><div class="branded-box__row"><div class="ebook-sidbar"><div class="ebook-sidbar__dropzone hidden">
+
+
+
+        
+        e-Book access is included with your individual subscription. Download this issue now:
+
+</div><div class="ebook-sidbar__dropzone">
+
+
+
+        
+        <p class="ebook-sidbar__text"><b>Nonsubscribers:</b> Purchase the e-book of this issue </p>
+<div class="ebook-sidbar__links"><a href="https://cdcshoppingcart.uchicago.edu/Cart2/Cart?PRESS=journal&amp;ISBN=0-226-91288-4&amp;EF=epub"
+                ><img src="/pb-assets/images/document-epub-1446613344330.png">EPUB: $16.00</a><br>
+    <a href="https://cdcshoppingcart.uchicago.edu/Cart2/Cart?PRESS=journal&amp;ISBN=0-226-91288-4&amp;EF=prc"
+                ><img src="/pb-assets/images/document-mobi-1446613344773.png">MOBI: $16.00</a></div>
+
+</div></div></div><div class="branded-box__row">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="2e4d1435-bd6c-4fd5-b595-e035f7c65fbd" class="mt-3">
+        
+
+
+
+        
+        <a href="/ebook-faq">e-Book FAQ</a>
+
+        </div>
+    
+</div></div></section>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumAd" data-widget-id="639d7e0d-a882-4e93-9588-03b73c47e5b3" class="mt-2">
+        
+
+
+
+        
+        
+
+
+
+        
+    
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumAd" data-widget-id="46132f3d-3d71-44b6-9d92-aa085933427d" class="mt-2">
+        
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <a href="/action/clickThrough?id=1280&url=%2Ftoc%2Fjop%2Fcurrent%2F&loc=%2Ftoc%2Fjpe%2Fcurrent&pubId=41534710&placeholderId=1012&productId=1070"><img src="/sda/1280/web-310x210-jop.png" alt="The Journal of Politics"></a>
+        </div>
+    
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="general-html-asset" data-widget-id="49a39efb-e55c-44cc-8090-4bebebe08813" class="mt-2">
+        
+
+
+
+        
+        
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumAd" data-widget-id="2e568f6c-0b47-40a9-b922-1b2566a16fd1" class="mt-2">
+        
+
+
+
+        
+        
+
+
+
+        
+    
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="general-html-asset" data-widget-id="215ba0ae-e706-4971-8edb-59b5e2528572" class="mt-2">
+        
+
+
+
+        
+        
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumAd" data-widget-id="0a9df9b4-dd4d-467f-a67b-58b88f9a2ccc" class="mt-2">
+        
+
+
+
+        
+        
+
+
+
+        
+    
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="general-html-asset" data-widget-id="648d04cc-bf5c-47e4-a538-4c4fce01fcf8" class="mt-2 branded-box">
+        
+
+
+
+        
+        <div>
+	<h4 class="branded-box__header bg--secondary">From the journal</h4>
+	<div class="branded-box__body bg--primary text--primary">
+<p><a href="/journals/jpe/etoc">Register for a Chicago Journals account</a></p>
+
+<p><a href="/journals/jpe/etoc#etoc">Sign up for eTOC alerts</a></p>
+
+<p><a href="/journals/jpe/etoc#article">Sign up for article alerts</a></p>
+
+<p><a href="/journals/jpe/etoc#citation">Set up citation alerts</a></p>
+
+<p><a href="/journals/jpe/etoc#search">Save a search</a></p>
+	</div>
+</div>
+
+
+
+        </div>
+    
+
+
+
+
+        
+            <h2 class="regular-widget-decoration">
+                ABOUT THE JOURNAL
+            </h2>
+        
+        
+<p><strong>Frequency:</strong> 12 issues/year <br /><strong>ISSN:</strong> 0022-3808 <br /><strong>E-ISSN:</strong> 1537-534X<br><b>2019 <em>JCR</em> Impact Factor*</b>: 5.504 <br />Ranked #10 out of 371 in Economics</p>
+<p>One of the oldest and most prestigious journals in economics, the <em>Journal of Political Economy</em> presents significant and essential scholarship in economic theory and practice. The journal publishes highly selective and widely cited analytical, interpretive, and empirical studies in a number of areas, including monetary theory, fiscal policy, labor economics, development, microeconomic and macroeconomic theory, international trade and finance, industrial organization, and social economics.</p>
+<hr>
+<p><span style="font-size: small;">View <a title="view content coverage periods" href="/inst/content-coverage">content coverage periods</a> and <a title="view institutional full-run subscription rates" href="/inst/rates">institutional full-run subscription rates</a> for the <em>Journal of Political Economy</em>. </span></p>
+
+
+
+
+
+
+
+        
+        <p><span style="font-size: small;">*Journal Impact Factors courtesy of the 2019 <em>Journal Citation Reports</em> (<em>JCR</em>) (Clarivate Analytics, 2020).</span></p>
+</div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3Tabs" data-widget-id="6a596369-591d-4919-871e-01bf977c89a0" class="tabs--top-content swipe-with-arrows my-3">
+        
+
+
+
+        
+        <div data-ctrl-res="screen-md" class="tab"><nav><ul role="tablist" class="tab__nav"><li role="presentation" class="tab__nav__item"><a href="#pane-6a596369-591d-4919-871e-01bf977c89a001" aria-controls="#pane-6a596369-591d-4919-871e-01bf977c89a001" role="tab" data-toggle="tab" id="pane-6a596369-591d-4919-871e-01bf977c89a001con" aria-selected="true" class="tab__nav__item__link active"><span>Press Releases</span></a></li><li role="presentation" class="tab__nav__item"><a href="#pane-6a596369-591d-4919-871e-01bf977c89a011" aria-controls="#pane-6a596369-591d-4919-871e-01bf977c89a011" role="tab" data-toggle="tab" id="pane-6a596369-591d-4919-871e-01bf977c89a011con" aria-selected="false" class="tab__nav__item__link"><span>Media</span></a></li></ul></nav><div class="tab__content"><div id="pane-6a596369-591d-4919-871e-01bf977c89a001" aria-labelledby="pane-6a596369-591d-4919-871e-01bf977c89a001con" role="tabpanel" class="tab__pane active">
+
+
+
+        
+        <div class="multi-search clearfix"><input type="hidden" name="contextual_publication" value="jpe"/><input type="hidden" name="contextual_group" value="10.1086/jpe.2021.129.issue-9"/><ul class="rlist lot"><li class="grid-item">
+<div class="press-releases__item">
+	<a href="/journals/pr/210708" target="_blank">
+		<div class="press-releases__logo">
+			
+		</div>
+	<b>University of Chicago Press journals earn top rankings in 2020 indices</b>
+	</a>
+	
+	<div class="press-releases__date">August 9, 2021</div>
+</div>
+
+
+</li><li class="grid-item">
+<div class="press-releases__item">
+	<a href="https://www.journals.uchicago.edu/journals/jpe/pr/210611" target="_blank">
+		<div class="press-releases__logo">
+			
+		</div>
+	<b>New Insights on the Impact of the Green Revolution</b>
+	</a>
+	
+	<div class="press-releases__date">June 11, 2021</div>
+</div>
+
+
+</li><li class="grid-item">
+<div class="press-releases__item">
+	<a href="https://www.journals.uchicago.edu/journals/jpe/pr/210621" target="_blank">
+		<div class="press-releases__logo">
+			
+		</div>
+	<b>How a family’s socio-economic status can influence a child's economic preferences and IQ</b>
+	</a>
+	
+	<div class="press-releases__date">June 10, 2021</div>
+</div>
+
+
+</li></ul></div>
+</div><div id="pane-6a596369-591d-4919-871e-01bf977c89a011" aria-labelledby="pane-6a596369-591d-4919-871e-01bf977c89a011con" role="tabpanel" class="tab__pane">
+
+
+
+        
+        <div class="multi-search clearfix"><input type="hidden" name="contextual_publication" value="jpe"/><input type="hidden" name="contextual_group" value="10.1086/jpe.2021.129.issue-9"/><ul class="rlist lot"><li class="grid-item">
+<div class="press-releases__item">
+	<a href="https://www.forbes.com/sites/coronavirusfrontlines/2021/07/15/want-to-make-in-person-school-safer-in-the-fall-use-lessons-from-behavioral-science/" target="_blank">
+		<div class="press-releases__logo">
+			
+			<img src="https://www.journals.uchicago.edu/pb-assets/images/in-the-news/forbes-1616614790657.png" alt="https://www.forbes.com/sites/coronavirusfrontlines/2021/07/15/want-to-make-in-person-school-safer-in-the-fall-use-lessons-from-behavioral-science/">
+			
+		</div>
+	<b>Want To Make In-Person School Safer In The Fall? Use Lessons From Behavioral Science</b>
+	</a>
+	
+		<div href="#" class="press-releases__read"><p><a href="/doi/full/10.1086/380085">Read the <em>Journal of Political Economy</em> article cited in Forbes</a></p></div>
+	
+	<div class="press-releases__date">August 31, 2021</div>
+</div>
+
+
+</li><li class="grid-item">
+<div class="press-releases__item">
+	<a href="/do/10.1086/do.in_the_news.2021.07.29.jpe/abs/Designing a public option that would reduce health care provider prices" target="_blank">
+		<div class="press-releases__logo">
+			
+			<img src="https://www.journals.uchicago.edu/pb-assets/images/in-the-news/brookings-institute-1583253939030.png" alt="Designing a public option that would reduce health care provider prices">
+			
+		</div>
+	<b>Designing a public option that would reduce health care provider prices</b>
+	</a>
+	
+		<div href="#" class="press-releases__read"><p><a href="/doi/full/10.1086/704756">Read the <em>Journal of Political Economy</em> article cited in Brookings</a></p></div>
+	
+	<div class="press-releases__date">July 29, 2021</div>
+</div>
+
+
+</li><li class="grid-item">
+<div class="press-releases__item">
+	<a href="https://www.bloombergquint.com/gadfly/minimum-wage-how-to-make-it-work" target="_blank">
+		<div class="press-releases__logo">
+			
+			<img src="https://www.journals.uchicago.edu/pb-assets/images/in-the-news/bloomberg-quint-1616614791297.png" alt="https://www.bloombergquint.com/gadfly/minimum-wage-how-to-make-it-work">
+			
+		</div>
+	<b>How to Make a (Modest) Minimum-Wage Hike Work</b>
+	</a>
+	
+		<div href="#" class="press-releases__read"><p><a href="/doi/full/10.1086/679626">Read the <em>Journal of Political Economy</em> article cited in Bloomberg | Quint</a></p></div>
+	
+	<div class="press-releases__date">March 25, 2021</div>
+</div>
+
+
+</li></ul></div>
+</div></div></div>
+
+        </div>
+    
+</div></section><section class="row"><div class="col-lg-12">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3Tabs" data-widget-id="7837120f-3f81-44ee-8764-6447846d3684" class="swipe-with-arrows tabs--top-content">
+        
+
+
+
+        
+        <div data-ctrl-res="screen-sm" class="tab"><nav><ul role="tablist" class="tab__nav"><li role="presentation" class="tab__nav__item"><div class="single-tab">RECENT ISSUES</div></li></ul></nav><div class="tab__content"><div id="pane-7837120f-3f81-44ee-8764-6447846d368401" aria-labelledby="pane-7837120f-3f81-44ee-8764-6447846d368401con" role="tabpanel" class="tab__pane active">
+
+
+
+        
+        <div class="slideshow"><a href="#afterSlideshow-undefined" class="sr-only-focusable">Skip slideshow</a><div data-responsive="{&quot;xsMin&quot;:{&quot;items&quot;:1},&quot;smMin&quot;:{&quot;items&quot;:3},&quot;mdMin&quot;:{&quot;items&quot;:3},&quot;lgMin&quot;:{&quot;items&quot;:5}}" class="responsive-slider mt-5"><div class="slideshow--main slideshow--recent-issues slideshow--grid"><div data-slideby="1" data-autoheight="true" data-arrow="data-arrow" data-stagepadding="0" data-label="Cover gallery" class="owl-carousel"><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/9"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-9/jpe.2021.129.issue-9/20210810-01/jpe.2021.129.issue-9.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 9</span><div class="cover-date">September 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/8"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-8/jpe.2021.129.issue-8/20210805/jpe.2021.129.issue-8.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 8</span><div class="cover-date">August 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/7"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-7/jpe.2021.129.issue-7/20210615-01/jpe.2021.129.issue-7.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 7</span><div class="cover-date">July 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/6"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-6/jpe.2021.129.issue-6/20210526/jpe.2021.129.issue-6.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 6</span><div class="cover-date">June 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/5"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-5/jpe.2021.129.issue-5/20210426/jpe.2021.129.issue-5.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 5</span><div class="cover-date">May 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/4"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-4/jpe.2021.129.issue-4/20210331-01/jpe.2021.129.issue-4.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 4</span><div class="cover-date">April 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/3"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-3/jpe.2021.129.issue-3/20210304/jpe.2021.129.issue-3.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 3</span><div class="cover-date">March 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/2"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-2/jpe.2021.129.issue-2/20210203/jpe.2021.129.issue-2.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 2</span><div class="cover-date">February 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2021/129/1"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2021/jpe.2021.129.issue-1/jpe.2021.129.issue-1/20210111/jpe.2021.129.issue-1.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 129</span><span class="citation-line">, Number 1</span><div class="cover-date">January 2021</div><span class="serial-title"></span></div></div></div></li></ul></div><div class="slide-item pubication-cover"><ul class="rlist loc"><li class="cover-image"><div class="cover-image"><div class="cover-image__image"><a href="/toc/jpe/2020/128/12"><img src="/na101/home/literatum/publisher/uchicago/journals/content/jpe/2020/jpe.2020.128.issue-12/jpe.2020.128.issue-12/20201201/jpe.2020.128.issue-12.cover.gif" alt="Issue Cover Image" style="box-shadow: 0 0 8px rgba(0,0,0,.4); max-width:86.5%;"></a></div><div class="cover-image__details"><div class="journal-meta"><span class="citation-line">Volume 128</span><span class="citation-line">, Number 12</span><div class="cover-date">December 2020</div><span class="serial-title"></span></div></div></div></li></ul></div></div></div></div><span id="afterSlideshow-" tabindex="-1">                                      </span></div>
+</div></div></div>
+
+        </div>
+    
+</div></section></div>
+</main>
+
+</div>
+
+</div>
+
+
+
+
+        
+        <footer class="footer"><div class="back-to-top"></div><div class="footer__menu"><div class="container"><div class="footer__menu__row"><div class="footer__menu__col">
+
+
+
+        
+        <div class="footer__logo">
+<img src="/specs/products/themes/classic/uchicago/releasedAssets/images/footer-logo.png" alt="The University of Chicago Press logo"></div>
+
+<ul class="rlist">
+<li><a href="https://press.uchicago.edu" target="_blank">The University of Chicago Press Books</a></li>
+<li><a href="http://www.press.uchicago.edu/cdc.html" target="_blank">Chicago Distribution Center</a></li>
+<li><a href="https://www.uchicago.edu" target="_blank">The University of Chicago</a></li>
+</ul>
+</div><div class="footer__menu__col middle">
+
+
+
+        
+        <div class="footer__spacer"></div>
+<ul class="rlist">
+<li><a href="/t-and-c">Terms and Conditions</a></li>
+<li><a href="/publication-ethics-statement">Statement of Publication Ethics</a></li>
+<li><a href="http://www.press.uchicago.edu/press/privacy.html" target="_blank">Privacy Notice</a></li>
+<li><a href="/t-and-c#accessibility">Chicago Journals accessibility</a></li>
+<li><a href="https://accessibility.uchicago.edu/" target="_blank">University accessibility</a></li>
+</ul>
+<ul class="rlist rlist--inline footer__social-links visible-xs mt-4">
+
+<li><a href="https://www.facebook.com/UChicagoJournals" target="_blank"><span class="sr-only">Follow us on facebook</span><i aria-hidden="true" class="icon-facebook-square"></i></a></li>
+
+<li><a href="https://twitter.com/ChicagoJournals" target="_blank"><span class="sr-only">Follow us on Twitter</span><i aria-hidden="true" class="icon-twitter"></i></a></li>
+</ul>
+</div><div class="footer__menu__col">
+
+
+
+        
+        <div class="footer__spacer"></div>
+<ul class="rlist">
+<li><a href="/contact">Contact us</a></li>
+<li><a href="/advertising">Media and advertising requests</a></li>
+<li><a href="/open">Open access at Chicago</a></li>
+</ul>
+<ul class="rlist rlist--inline footer__social-links hidden-xs" style="margin-top:.6rem">
+
+<li><a href="https://www.facebook.com/UChicagoJournals" target="_blank"><span class="sr-only">Follow us on facebook</span><i aria-hidden="true" class="icon-facebook-square"></i></a></li>
+
+<li><a href="https://twitter.com/ChicagoJournals" target="_blank"><span class="sr-only">Follow us on Twitter</span><i aria-hidden="true" class="icon-twitter"></i></a></li>
+</ul>
+</div></div></div></div></footer>
+        </div>
+    </div>
+
+
+	
+            
+        
+
+            <script src="/products/uchicago/releasedAssets/js/build.lazyload.bundle-70f886a23432865dad01.js"></script>
+
+        <script src="/products/uchicago/releasedAssets/js/main.bundle-a28abba2f328e8416f9a.js" ></script>
+        
+
+<script type="text/javascript" src="/wro/kjtg~product.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"688374fa99812d61","token":"69bff163345d45b69c548adee7d6e0be","version":"2021.8.1","si":10}'></script>
+</body>
+</html>
